@@ -2,9 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>CSS Grid test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-grid-style.css">
 </head>
 <body>
-$END$
+
+<div class="wrapper">
+    <header class="header">Templify
+    <button class="w3-button w3-teal w3-xlarge btn-large-ghost" onclick="w3_open()">☰</button>
+    </header>
+
+    <nav class="sidebar" id="mySidebar">
+        <div class="div-sidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-button w3-large btn-large-ghost">Close &times;</button>
+        <h2>Sidebar</h2>
+        <ul class="sidebar-ul">
+            <li class="sidebar-li">Text</li>
+            <li class="sidebar-li">Text</li>
+            <li class="sidebar-li">Text</li>
+            <li class="sidebar-li">Text</li>
+            <li class="sidebar-li">Text</li>
+            <li class="sidebar-li">Text</li>
+            <li class="sidebar-li">Text</li>
+            <li class="sidebar-li">Text</li>
+            <li class="sidebar-li">Text</li>
+            <li class="sidebar-li">Text</li>
+
+        </ul>
+        </div>
+    </nav>
+
+    <article class="content">
+        <div class="row">
+            <div div class="pls">
+                <h1>2 column, header and footer</h1>
+                <p>This example uses line-based positioning, to position the header and footer, stretching them across the grid.</p>
+            </div>
+            <div div class="pls">
+                <h1>2 column, header and footer</h1>
+                <p>This example uses line-based positioning, to position the header and footer, stretching them across the grid.</p>
+            </div>
+            <div div class="pls">
+                <h1>2 column, header and footer</h1>
+                <p>This example uses line-based positioning, to position the header and footer, stretching them across the grid.</p>
+            </div>
+
+            <div div class="pls">
+                <h1>2 column, header and footer</h1>
+                <p>This example uses line-based positioning, to position the header and footer, stretching them across the grid.</p>
+            </div>
+            <div div class="pls">
+                <h1>2 column, header and footer</h1>
+                <p>This example uses line-based positioning, to position the header and footer, stretching them across the grid.</p>
+            </div>
+            <div div class="pls">
+                <h1>2 column, header and footer</h1>
+                <p>This example uses line-based positioning, to position the header and footer, stretching them across the grid.</p>
+            </div>
+            <div div class="pls">
+                <h1>2 column, header and footer</h1>
+                <p>This example uses line-based positioning, to position the header and footer, stretching them across the grid.</p>
+            </div>
+            <div div class="pls">
+                <h1>2 column, header and footer</h1>
+                <p>This example uses line-based positioning, to position the header and footer, stretching them across the grid.</p>
+            </div>
+            <div div class="pls">
+                <h1>2 column, header and footer</h1>
+                <p>This example uses line-based positioning, to position the header and footer, stretching them across the grid.</p>
+            </div>
+        </div>
+    </article>
+
+
+    <footer class="footer">My footer</footer>
+</div>
+
+
+<script>
+    function w3_open() {
+        document.getElementById("mySidebar").style.width = "100%";
+        document.getElementById("mySidebar").style.display = "block";
+    }
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+    }
+</script>
 </body>
 </html>
