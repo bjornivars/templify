@@ -3,6 +3,7 @@
 
 body {
     background-color: rgba(180,223,255, 0.2);
+    font-family: sans-serif;
 }
 .header{
     background: linear-gradient(to right, #26d35a , #424aed);
@@ -20,6 +21,17 @@ li {
 a {
     text-decoration: none;
     color: white;
+
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+}
+
+.h2-style-products{
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 
@@ -27,7 +39,7 @@ a {
 .side-nav {
     grid-area: sidebar;
     background-color: yellow;
-    padding: 60px;
+
     height: auto;
 }
 .maincontent {
@@ -42,10 +54,26 @@ a {
     display: block;
 }
 
-.fa-star{
-    color: yellow;
+.items:hover{
+    text-decoration: underline;
 }
 
+.fa-star{
+    color: #F5E742;
+}
+
+.items1{
+    background-color: #F2F2F2;
+    border: 1px solid rgba(180,223,255, 0.2);
+}
+
+.flex-name-stars{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+}
 
 /* @@@@@@@@@@@@@@@@@@@@@@ DESKTOP QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (min-width: 789px) {
@@ -53,7 +81,11 @@ a {
     .grid-wrapper {
         display: grid;
         grid-template-areas:
-                "sidebar main main main main ";
+                "sidebar main main main main"
+                "sidebar main main main main";
+        grid-column-gap: 3%;
+        margin-left: 3%;
+        margin-right: 3%;
     }
     ul {
         text-decoration: none;
@@ -63,10 +95,22 @@ a {
         list-style-type: none
     }
 
+    .items1{
+        margin-bottom: 10%;
+
+    }
+    .items{
+       margin-left: 25%;
+    }
     .facebook__brand {
         margin-right: auto;
     }
 
+    .side-nav{
+        background-color: #F2F2F2;
+        border: 1px solid #F2F2F2;
+        border-radius: 7px;
+    }
     .ul-nav {
         display: flex;
         height: 46px;
@@ -129,59 +173,39 @@ a {
         color: lightgray;
     }
 
+    .img-mobile{
+        width: 100%;
+        border: 1px solid #F2F2F2;
+        border-radius: 4px 4px 0px 0px;
+    }
+
+    .black-a{
+        color: black;
+    }
+
+    .h2-mobile{
+        font-size: 20px;
+        margin: 0;
+    }
+
 
 }
 
 /* @@@@@@@@@@@@@@@@@@@@@@ Tablet QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (min-width: 500px) and (max-width: 788px) {
-    .hide-mobile{
-        display: none;
-    }
-
-    .nav-bars {
-        display: flex;
-        justify-content: space-between;
-    }
-    .hide-desktop{
-        display: inline-flex;
-    }
-
-    .search {
-        display: flex;
-        justify-content: center;
-    }
-
-    .fa-search {
-        color: white;
-        padding: 0.3em;
-        border: 1px solid white;
-        border-radius: 0px 7px 7px 0px;
-    }
-
-    .search-input{
-        padding: 0.7em;
-        width: 30%;
-        border: 1px solid white;
-        border-radius: 7px 0px 0px 7px;
-    }
-
-    .div-filter-seach{
-        display: flex;
-        justify-content: center;
-        color: white;
-    }
-
-}
-
-
-
-/* @@@@@@@@@@@@@@@@@@@@@@ MOBILE QUERY @@@@@@@@@@@@@@@@@@@@@@ */
-@media screen and (max-width: 500px) {
     .grid-wrapper{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-        margin: 0px 10px 0px 10px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        margin: 10px  10px 0px 10px;
+    }
+
+    .header{
+        margin-bottom: 0.7em;
+    }
+
+    .black-a{
+        color: black;
     }
 
     .hide-mobile{
@@ -197,11 +221,13 @@ a {
     }
 
     .h2-mobile{
-        font-size: medium;
+        font-size: 18px;
         margin: 0;
     }
 
-    .span-style{
+    .span-style-category{
+        margin-left: 10px;
+        font-size: x-large;
 
     }
 
@@ -212,6 +238,7 @@ a {
     .navbar-icons{
         display: inline-flex;
         margin: 0.7em 0.7em 0.7em 0.7em;
+        color: white;
     }
 
     .search {
@@ -242,7 +269,99 @@ a {
     }
 
     .items1{
-        background-color: #F2F2F2;
+        border: 1px solid rgba(180,223,255, 0.2);
+        border-radius: 4px;
+    }
+
+    .img-mobile{
+        width: 100%;
+        border: 1px solid #F2F2F2;
+        border-radius: 4px 4px 0px 0px;
+    }
+
+    .flex-name-stars{
+        font-size: 14px;
+    }
+
+}
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@ MOBILE QUERY @@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (max-width: 500px) {
+    .grid-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin: 10px  10px 0px 10px;
+    }
+
+    header{
+        margin-bottom: 1em;
+    }
+
+    .hide-mobile{
+        display: none;
+    }
+    .black-a{
+        color: black;
+    }
+
+    .h1-mobile{
+        font-family: Arial;
+        font-size: 1em;
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        color: white;
+    }
+
+    .h2-mobile{
+        font-size: medium;
+        margin: 0;
+    }
+
+    .span-style{
+
+    }
+
+    .nav-bars-div {
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar-icons{
+        display: inline-flex;
+        margin: 0.7em 0.7em 0.7em 0.7em;
+        color: white;
+    }
+
+    .search {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fa-search {
+        color: white;
+        padding: 0.3em;
+        border: 1px solid white;
+        border-radius: 0px 7px 7px 0px;
+    }
+
+    .search-input{
+        padding: 0.4em;
+        width: 50%;
+        border: 1px solid white;
+        border-radius: 4px 0px 0px 4px;
+    }
+    .div-filter-seach{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    nav{
+        display: none;
+    }
+
+    .items1{
         border: 1px solid rgba(180,223,255, 0.2);
         border-radius: 4px;
     }
