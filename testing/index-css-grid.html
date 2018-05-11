@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Grid test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-grid-style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <header class="header">Templify
+        <button onclick="myFunction()">Click Me</button>
+    </header>
+
+    <nav class="sidebar" id="mySidebar">
+        Sidebar
+    </nav>
+
+    <main class="content">
+        article
+    </main>
+
+
+    <footer class="footer">
+        My footer
+    </footer>
+</div>
+
+<script>
+function myFunction() {
+var x = document.getElementById("mySidebar");
+if (x.style.display === "none") {
+x.style.display = "" + "inline-flex";
+} else {
+x.style.display = "none";
+}
+}
+</script>
+</body>
+</html>

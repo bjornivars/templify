@@ -1,0 +1,257 @@
+
+/* @@@@@@@@@@@@@@@@@@@@@@ ALL DEVICES QUERY @@@@@@@@@@@@@@@@@@@@@@ */
+
+body {
+    background-color: rgba(180,223,255, 0.2);
+}
+.header{
+    background: linear-gradient(to right, #26d35a , #424aed);
+}
+
+
+ul {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.side-nav {
+    grid-area: sidebar;
+    background-color: yellow;
+    padding: 60px;
+    height: auto;
+}
+.maincontent {
+    grid-area: main;
+    background-color: pink;
+    padding: 20px;
+    height: auto;
+}
+
+.items {
+    margin-top: 0.5em;
+    display: block;
+}
+
+.fa-star{
+    color: yellow;
+}
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@ DESKTOP QUERY @@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (min-width: 789px) {
+
+    .grid-wrapper {
+        display: grid;
+        grid-template-areas:
+                "sidebar main main main main ";
+    }
+    ul {
+        text-decoration: none;
+    }
+
+    li {
+        list-style-type: none
+    }
+
+    .facebook__brand {
+        margin-right: auto;
+    }
+
+    .ul-nav {
+        display: flex;
+        height: 46px;
+        align-items: center;
+        padding: 0 10px;
+        background: transparent;
+        color: white;
+        font-size: 1em;
+    }
+
+    .facebook__brand i {
+        font-size: 1.5em;
+    }
+
+    .ul-nav li:not(:first-child) {
+        margin-right: 3%;
+    }
+
+    .header {
+        background: linear-gradient(to right, #26d35a , #424aed);
+        max-height: 10em;
+        min-height: 15em;
+    }
+
+    .fa-sign-in-alt{
+        padding-left: 0.3em;
+        }
+
+
+    .search {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fa-search {
+        color: white;
+        padding: 0.3em;
+        border: 1px solid white;
+        border-radius: 0px 7px 7px 0px;
+    }
+
+    .search-input{
+        padding: 0.7em;
+        width: 30%;
+        border: 1px solid white;
+        border-radius: 7px 0px 0px 7px;
+
+    }
+    .div-filter-seach{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .hide-desktop{
+        display: none;
+    }
+
+    .disabled{
+        color: lightgray;
+    }
+
+
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@ Tablet QUERY @@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (min-width: 500px) and (max-width: 788px) {
+    .hide-mobile{
+        display: none;
+    }
+
+    .nav-bars {
+        display: flex;
+        justify-content: space-between;
+    }
+    .hide-desktop{
+        display: inline-flex;
+    }
+
+    .search {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fa-search {
+        color: white;
+        padding: 0.3em;
+        border: 1px solid white;
+        border-radius: 0px 7px 7px 0px;
+    }
+
+    .search-input{
+        padding: 0.7em;
+        width: 30%;
+        border: 1px solid white;
+        border-radius: 7px 0px 0px 7px;
+    }
+
+    .div-filter-seach{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+}
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@ MOBILE QUERY @@@@@@@@@@@@@@@@@@@@@@ */
+@media screen and (max-width: 500px) {
+    .grid-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .hide-mobile{
+        display: none;
+    }
+
+    .h1-mobile{
+        font-family: Arial;
+        font-size: 1em;
+        margin-top: 0.7em;
+        margin-bottom: 0.7em;
+        color: white;
+    }
+
+    .h2-mobile{
+        font-size: medium;
+        margin: 0;
+    }
+
+    .span-style{
+
+    }
+
+    .nav-bars-div {
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar-icons{
+        display: inline-flex;
+        margin: 0.7em 0.7em 0.7em 0.7em;
+    }
+
+    .search {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fa-search {
+        color: white;
+        padding: 0.3em;
+        border: 1px solid white;
+        border-radius: 0px 7px 7px 0px;
+    }
+
+    .search-input{
+        padding: 0.4em;
+        width: 50%;
+        border: 1px solid white;
+        border-radius: 4px 0px 0px 4px;
+    }
+    .div-filter-seach{
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    nav{
+        display: none;
+    }
+
+    .items1{
+        background-color: #F2F2F2;
+        border: 1px solid rgba(180,223,255, 0.2);
+        border-radius: 4px;
+    }
+
+    .img-mobile{
+        width: 100%;
+        border: 1px solid #F2F2F2;
+        border-radius: 4px 4px 0px 0px;
+    }
+}
+
+

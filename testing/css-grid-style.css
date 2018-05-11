@@ -1,0 +1,83 @@
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ GENERAL STYLE @@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+header {
+    grid-area: header;
+    background-color: white;
+}
+
+
+nav {
+    grid-area: nav;
+    background-color: blue;
+}
+
+main{
+    grid-area: main;
+    background-color: deeppink;
+}
+
+footer{
+    grid-area: footer;
+    background-color: yellow;
+}
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ MOBILE QUERY @@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #2FAE89;
+        grid-auto-rows: minmax(100px, auto);
+        max-width: 750px;
+        margin: 0 auto;
+        grid-gap: 10px;
+        grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "nav nav nav"
+        "main main main"
+        "main main main"
+        "main main main"
+        "footer footer footer";
+    }
+
+    nav{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ TABLET QUERY @@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .wrapper {
+
+    }
+
+}
+
+
+
+
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@ DESKTOP QUERY @@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@media screen and (min-width: 1025px) {
+    .wrapper {
+
+    }
+
+}
