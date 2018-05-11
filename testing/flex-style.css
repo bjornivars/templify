@@ -21,7 +21,6 @@ li {
 a {
     text-decoration: none;
     color: white;
-
 }
 
 a:hover {
@@ -42,12 +41,7 @@ a:hover {
 
     height: auto;
 }
-.maincontent {
-    grid-area: main;
-    background-color: pink;
-    padding: 20px;
-    height: auto;
-}
+
 
 .items {
     margin-top: 0.5em;
@@ -75,6 +69,45 @@ a:hover {
     padding-bottom: 5%;
 }
 
+
+
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+
+
+
+
 /* @@@@@@@@@@@@@@@@@@@@@@ DESKTOP QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (min-width: 789px) {
 
@@ -86,6 +119,12 @@ a:hover {
         grid-column-gap: 3%;
         margin-left: 3%;
         margin-right: 3%;
+    }
+
+    .grid-wrapper-product{
+        display: grid;
+        grid-template-areas:
+        "main main";
     }
     ul {
         text-decoration: none;
