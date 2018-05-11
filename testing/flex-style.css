@@ -12,6 +12,8 @@ body {
 
 ul {
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
 li {
@@ -21,6 +23,10 @@ li {
 a {
     text-decoration: none;
     color: white;
+}
+
+h3{
+    margin: 0;
 }
 
 a:hover {
@@ -111,6 +117,11 @@ ul.breadcrumb li a:hover {
 /* @@@@@@@@@@@@@@@@@@@@@@ DESKTOP QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (min-width: 789px) {
 
+    h3{
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
     .grid-wrapper {
         display: grid;
         grid-template-areas:
@@ -121,11 +132,48 @@ ul.breadcrumb li a:hover {
         margin-right: 3%;
     }
 
-    .grid-wrapper-product{
+    .grid-product-wrapper{
         display: grid;
         grid-template-areas:
-        "main main";
+                "main main main main main"
+               ;
+        grid-column-gap: 3%;
+        margin-left: 3%;
+        margin-right: 3%;
+
+
     }
+
+    .flex-wrapper{
+        display: flex;
+        margin-left: 3%;
+        margin-right: 3%;
+        justify-content: space-between;
+        border: 2px solid green;
+
+    }
+
+    .review-row{
+        margin-top: 5em;
+    }
+
+    .img-larger{
+        border: none;
+        width: 50%;
+        text-align: center;
+    }
+
+    .product-info{
+        border: none;
+        width: 50%;
+    }
+
+    .text-info{
+        width: 50%;
+        border: none;
+        margin: 0 auto;
+    }
+
     ul {
         text-decoration: none;
     }
@@ -225,6 +273,42 @@ ul.breadcrumb li a:hover {
     .h2-mobile{
         font-size: 20px;
         margin: 0;
+    }
+
+    .container-left{
+        width: 50%;
+        border-right: 1px solid black;
+
+    }
+
+    .container-right{
+        width: 50%;
+        border: none;
+    }
+
+    .button{
+        background-color: #2ABC72;
+        padding: 1em;
+        color: white;
+        width: 100%;
+        border: 1px solid #2ABC72;
+        border-radius: 7px;
+    }
+
+    .more-reviews{
+        width: 50%;
+        margin: auto;
+    }
+
+    .text-info2{
+        width: 70%;
+        margin: auto;
+        padding-bottom: 2em;
+    }
+
+    .all-product-content{
+        width: 80%;
+        margin: auto;
     }
 
 
