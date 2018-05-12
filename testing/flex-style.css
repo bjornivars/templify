@@ -9,6 +9,14 @@ body {
     background: linear-gradient(to right, #26d35a , #424aed);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue";
+    font-weight: normal;
+}
+
+p{
+    font-family: Helvetica;
+}
 
 ul {
     text-decoration: none;
@@ -151,6 +159,13 @@ ul.breadcrumb li a:hover {
         justify-content: space-between;
         border: none;
 
+    }
+    .flex-wrapper-contact{
+        display: flex;
+        margin-left: 3%;
+        margin-right: 3%;
+        justify-content: center;
+        border: none;
     }
 
     .review-row{
@@ -314,6 +329,46 @@ ul.breadcrumb li a:hover {
         margin: auto;
     }
 
+    .text-info-contact{
+        width: 55%;
+        border: none;
+        margin: 0 auto;
+    }
+
+    .container-left-contact{
+        width: 35%;
+        border: 1px solid transparent;
+        border-radius: 7px 0px 0px 7px;
+        background-color: #F2F2F2;
+        padding-top: 3em;
+
+    }
+
+    .container-right-contact{
+        display: flex;
+        justify-content: center;
+        width: 35%;
+        border: 1px solid transparent;
+        border-radius: 0px 7px 7px 0px;
+        background-color: #F2F2F2;
+        padding-top: 3em;
+
+    }
+
+
+    .input-style{
+        padding: 1em;
+        margin-top: 5%;
+        border: 1px solid gray;
+        border-radius: 7px;
+        width: 90%;
+    }
+
+    .text-info2-contact{
+        width: 70%;
+        padding-bottom: 2em;
+
+    }
 
 }
 
