@@ -500,6 +500,13 @@ ul.breadcrumb li a:hover {
 
 /* @@@@@@@@@@@@@@@@@@@@@@ MOBILE QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (max-width: 500px) {
+    .grid-product-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin: 10px  10px 0px 10px;
+    }
+
     .grid-wrapper{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -584,6 +591,51 @@ ul.breadcrumb li a:hover {
         border: 1px solid #F2F2F2;
         border-radius: 4px 4px 0px 0px;
     }
+
+    .img-larger{
+        border: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .text-info{
+        width: 90%;
+        margin: auto;
+    }
+
+    .text-info2{
+        width: 90%;
+        margin: auto;
+    }
+    .container-left{
+        border: 1px solid rgba(0, 0, 0, 0.7);
+        border-radius: 4px;
+        margin-top: 2em;
+    }
+    .container-right{
+        border: 1px solid rgba(0, 0, 0, 0.7);
+        border-radius: 4px;
+        margin-top: 2em;
+    }
+    h3{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    ul.breadcrumb{
+        font-size: 8px;
+    }
+
+    .button{
+        background-color: #2ABC72;
+        padding: 0.5em;
+        color: white;
+        width: 90%;
+        border: 1px solid #2ABC72;
+        border-radius: 4px;
+    }
+
+
 }
 
 
