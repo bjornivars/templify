@@ -378,6 +378,14 @@ ul.breadcrumb li a:hover {
         height: 7em;
     }
 
+    .input-style{
+        padding: 1em;
+        margin-top: 5%;
+        border: 1px solid gray;
+        border-radius: 7px;
+        width: 90%;
+    }
+
     .grid-wrapper{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -549,6 +557,39 @@ ul.breadcrumb li a:hover {
         font-size: 14px;
     }
 
+    .flex-wrapper-contact{
+        display: flex;
+        margin-left: 3%;
+        margin-right: 3%;
+        justify-content: center;
+        border: none;
+    }
+
+    .container-left-contact{
+        width: 45%;
+        border: 1px solid transparent;
+        border-radius: 7px 0px 0px 7px;
+        background-color: #F2F2F2;
+        padding-top: 3em;
+
+    }
+
+    .container-right-contact{
+        display: flex;
+        justify-content: center;
+        width: 45%;
+        border: 1px solid transparent;
+        border-radius: 0px 7px 7px 0px;
+        background-color: #F2F2F2;
+        padding-top: 3em;
+
+    }
+    .text-info-contact{
+        width: 70%;
+        margin: auto;
+
+    }
+
 }
 
 
@@ -560,6 +601,14 @@ ul.breadcrumb li a:hover {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
         margin: 10px  10px 0px 10px;
+    }
+
+    .input-style{
+        padding: 1em;
+        margin-top: 5%;
+        border: 1px solid gray;
+        border-radius: 4px;
+        width: 90%;
     }
 
     .grid-wrapper{
@@ -688,6 +737,40 @@ ul.breadcrumb li a:hover {
         width: 90%;
         border: 1px solid #2ABC72;
         border-radius: 4px;
+    }
+
+    .flex-wrapper-contact{
+        display: block;
+        margin-left: 3%;
+        margin-right: 3%;
+        justify-content: center;
+        border: none;
+    }
+
+    .container-left-contact{
+        width: 100%;
+        border: 1px solid transparent;
+        border-radius: 7px 0px 0px 7px;
+        background-color: #F2F2F2;
+        padding-top: 1em;
+        margin-top: 2em;
+
+    }
+
+    .container-right-contact{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        border: 1px solid transparent;
+        border-radius: 0px 7px 7px 0px;
+        background-color: #F2F2F2;
+
+    }
+
+    .text-info-contact{
+        width: 70%;
+        margin: auto;
+
     }
 
 
