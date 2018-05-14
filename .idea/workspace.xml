@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c921c527-e001-4e7e-ab4e-0f76e15e86cd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/testing/flex-about.html" afterPath="$PROJECT_DIR$/testing/flex-about.html" />
       <change beforePath="$PROJECT_DIR$/testing/flex-contact.html" afterPath="$PROJECT_DIR$/testing/flex-contact.html" />
       <change beforePath="$PROJECT_DIR$/testing/flex-index.html" afterPath="$PROJECT_DIR$/testing/flex-index.html" />
@@ -28,9 +29,11 @@
       <file leaf-file-name="flex-index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/flex-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="220" column="0" lean-forward="true" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="245" column="11" lean-forward="false" selection-start-line="245" selection-start-column="10" selection-end-line="245" selection-end-column="11" />
               <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -41,8 +44,8 @@
       <file leaf-file-name="flex-style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing/flex-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="880" column="26" lean-forward="false" selection-start-line="880" selection-start-column="26" selection-end-line="880" selection-end-column="26" />
+            <state relative-caret-position="201">
+              <caret line="420" column="23" lean-forward="false" selection-start-line="420" selection-start-column="23" selection-end-line="420" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -51,9 +54,11 @@
       <file leaf-file-name="flex-contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/flex-contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+            <state relative-caret-position="512">
+              <caret line="152" column="9" lean-forward="false" selection-start-line="152" selection-start-column="9" selection-end-line="152" selection-end-column="9" />
               <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -64,9 +69,11 @@
       <file leaf-file-name="flex-success.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/flex-success.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="512">
+              <caret line="146" column="9" lean-forward="false" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
               <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -77,9 +84,11 @@
       <file leaf-file-name="flex-about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/flex-about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="512">
+              <caret line="147" column="9" lean-forward="false" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
               <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -91,8 +100,8 @@
       <file leaf-file-name="flex-login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/flex-login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -110,9 +119,11 @@
       <file leaf-file-name="flex-product.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing/flex-product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2670">
-              <caret line="178" column="0" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+            <state relative-caret-position="174">
+              <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
               <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -135,11 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>span</find>
-      <find>fa-sta</find>
-      <find>.center</find>
-      <find>flex</find>
-      <find>.ul</find>
       <find>maincontent</find>
       <find>main</find>
       <find>revie</find>
@@ -152,7 +158,6 @@
       <find>text-info</find>
       <find>grid-prod</find>
       <find>h3</find>
-      <find>.nav</find>
       <find>filter</find>
       <find>img-lar</find>
       <find>container</find>
@@ -163,8 +168,14 @@
       <find>input-st</find>
       <find>flex-wrapper</find>
       <find>.wrapper</find>
-      <find>wrapper</find>
       <find>flex-wrapper-conta</find>
+      <find>wrapper</find>
+      <find>dropdown</find>
+      <find>dropdown-content-side</find>
+      <find>items</find>
+      <find>.items</find>
+      <find>.disab</find>
+      <find>.nav</find>
     </findStrings>
     <replaceStrings>
       <replace>thumbnail</replace>
@@ -198,11 +209,11 @@
         <option value="$PROJECT_DIR$/flex-product.html" />
         <option value="$PROJECT_DIR$/flex-contact.html" />
         <option value="$PROJECT_DIR$/flex-about.html" />
-        <option value="$PROJECT_DIR$/testing/flex-product.html" />
         <option value="$PROJECT_DIR$/testing/flex-index.html" />
         <option value="$PROJECT_DIR$/testing/flex-contact.html" />
         <option value="$PROJECT_DIR$/testing/flex-success.html" />
         <option value="$PROJECT_DIR$/testing/flex-about.html" />
+        <option value="$PROJECT_DIR$/testing/flex-product.html" />
         <option value="$PROJECT_DIR$/testing/flex-login.html" />
         <option value="$PROJECT_DIR$/testing/flex-style.css" />
       </list>
@@ -305,12 +316,12 @@
       <workItem from="1525882679857" duration="16612000" />
       <workItem from="1526028607844" duration="15931000" />
       <workItem from="1526120382523" duration="6736000" />
-      <workItem from="1526220093265" duration="3130000" />
+      <workItem from="1526220093265" duration="8704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93013000" />
+    <option name="totallyTimeSpent" value="98587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -346,14 +357,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testing/flex-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -637,22 +640,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/flex-index.html">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="220" column="0" lean-forward="true" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="188">
+          <caret line="240" column="16" lean-forward="false" selection-start-line="240" selection-start-column="16" selection-end-line="240" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/flex-contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="512">
+          <caret line="152" column="9" lean-forward="false" selection-start-line="152" selection-start-column="9" selection-end-line="152" selection-end-column="9" />
           <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -661,9 +663,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/flex-success.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="512">
+          <caret line="146" column="9" lean-forward="false" selection-start-line="146" selection-start-column="9" selection-end-line="146" selection-end-column="9" />
           <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -672,9 +676,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/flex-about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="512">
+          <caret line="147" column="9" lean-forward="false" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
           <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -682,10 +688,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testing/flex-product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/flex-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="245" column="11" lean-forward="false" selection-start-line="245" selection-start-column="10" selection-end-line="245" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#span#0;n#div#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testing/flex-login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -699,23 +733,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/flex-product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2670">
-          <caret line="178" column="0" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing/flex-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="880" column="26" lean-forward="false" selection-start-line="880" selection-start-column="26" selection-end-line="880" selection-end-column="26" />
+        <state relative-caret-position="201">
+          <caret line="420" column="23" lean-forward="false" selection-start-line="420" selection-start-column="23" selection-end-line="420" selection-end-column="23" />
           <folding />
         </state>
       </provider>

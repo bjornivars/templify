@@ -417,7 +417,8 @@ ul.breadcrumb li a:hover {
 /* @@@@@@@@@@@@@@@@@@@@@@ Tablet QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (min-width: 500px) and (max-width: 788px) {
     .nav{
-        height: 7em;
+        max-height: 7em;
+        min-height: 3em;
     }
 
     .input-style{
@@ -453,6 +454,8 @@ ul.breadcrumb li a:hover {
         justify-content: space-between;
         border: none;
     }
+
+
 
     h3{
         padding-top: 3%;
@@ -528,7 +531,7 @@ ul.breadcrumb li a:hover {
 
     .h1-mobile{
         font-family: Arial;
-        font-size: 1em;
+        font-size: 2em;
         margin-top: 0.7em;
         margin-bottom: 0.7em;
         color: white;
@@ -551,7 +554,8 @@ ul.breadcrumb li a:hover {
     }
     .navbar-icons{
         display: inline-flex;
-        margin: 0.7em 0.7em 0.7em 0.7em;
+        margin-left: 1em;
+        margin-right: 1em;
         color: white;
     }
 
@@ -669,6 +673,154 @@ ul.breadcrumb li a:hover {
         width: 70%;
         padding-bottom: 2em;
 
+    }
+
+
+
+
+
+
+
+
+
+
+    /* Dropdown Button */
+    .dropbtn {
+        background-color: transparent;
+        color: white;
+        font-size: 2em;
+        border: none;
+        cursor: pointer;
+        margin-top: 21.440px;;
+    }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: transparent;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left: 77.6%;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-size: 1.3em;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #ddd}
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {display:block;}
+
+
+
+
+
+
+
+
+
+
+    /* Dropdown Button */
+    .dropbtn-sidebar {
+        background-color: transparent;
+        color: white;
+        font-size: 2em;
+        border: none;
+        cursor: pointer;
+        margin-top: 21.440px;
+    }
+
+    /* Dropdown button on hover & focus */
+    .dropbtn-sidebar:hover, .dropbtn-sidebar:focus {
+        background-color: transparent;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content-sidebar {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        width: 100%;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content-sidebar a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content-sidebar a:hover {background-color: #ddd}
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+    .show {display:block;}
+
+
+    .flex-span{
+        display: flex;
+        justify-content: space-between;
+    }
+    .close {
+        font-size: 2.5em;
+        margin-right: 0.5em;
+        margin-top: 0.5em;
+
+    }
+
+    .items {
+        font-size: 1.3em;
+        margin-top: 0.5em;
+        padding-left: 5%;
+        border-bottom: 1px solid black;
+    }
+
+    .fa-caret-right{
+        font-size: 1.7em;
+        padding: 0;
+        margin: 0;
+    }
+
+    .disabled a{
+        color: lightgray;
+    }
+
+    .login-nav{
+        display: flex;
+        justify-content: center;
     }
 
 }

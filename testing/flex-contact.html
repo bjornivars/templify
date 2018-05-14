@@ -10,17 +10,40 @@
 </head>
 <body>
 
-
 <div class="header">
-    <div class="nav">
+    <div class="nav dropdown">
         <div class="nav-bars-div">
-            <li class="hide-desktop navbar-icons"> <i class="fas fa-bars"></i></li>
+            <li class="hide-desktop navbar-icons" onclick="sidebarDropdown()"> <i class="fas fa-bars dropbtn-sidebar"></i></li>
+
+
+
+
+
+
             <h1 class="hide-desktop h1-mobile h1-tablet">Templify</h1>
-            <li class="hide-desktop navbar-icons">  <i class="fas fa-ellipsis-v"></i></li>
+            <li class="hide-desktop navbar-icons" onclick="contactDropdown()">  <i class="fas fa-ellipsis-v dropbtn"></i></li>
         </div>
-        <ul class="ul-nav hide-mobile" role="navigation">
-            <li class="facebook__brand"><a href="flex-index.html"> <i class="fab fa-facebook"></i>Templify </a></li>
-            <li class="disabled">Create Template</li>
+        <ul class="side-nav-smaller-dev hide-mobile hide-desktop dropdown-content-sidebar" id="myDropdownSidebar">
+            <div class="flex-span">
+                <span style="padding-left: 5%;"><h3 style="text-align: center; font-size: 2em; margin-top: 0.5em;">Choose category</h3></span>
+                <span><i class="fas fa-times close"></i></span>
+            </div>
+
+            <li class="items"><a class="black-a" href="#"> <span>Job application</span> <span><i class="fas fa-caret-right"></i></span></a></li>
+            <li class="items"><a class="black-a" href="#">School Essay</a></li>
+            <li class="items"><a class="black-a" href="#">HTML/CSS</a></li>
+            <li class="items"><a class="black-a" href="#">JavaScript</a></li>
+            <li class="items"><a class="black-a" href="#">Python</a></li>
+            <li class="items"><a class="black-a" href="#">Java</a></li>
+            <li class="items"><a class="black-a" href="#">Websites</a></li>
+            <li class="items"><a class="black-a" href="#">Posters</a></li>
+            <li class="items"><a class="black-a" href="#">Banners</a></li>
+            <li class="items"><a class="black-a" href="#">Logos</a></li>
+            <li class="items"><a class="black-a" href="#">Presentations</a></li>
+        </ul>
+        <ul class="ul-nav hide-mobile dropdown-content" role="navigation" id="myDropdownContact">
+            <li class="facebook__brand hide-mobile"><a href="flex-index.html"> <i class="fab fa-facebook"></i>Templify </a></li>
+            <li class="disabled"><a href="#">Create Template</a></li>
             <li><a href="flex-contact.html">Contact</a> </li>
             <li><a href="flex-about.html">About</a></li>
             <li><a href="flex-login.html">Login<i class="fas fa-sign-in-alt"></i></a></li>
@@ -79,6 +102,55 @@
         </div>
     </div>
 
+
+<script>
+
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+    function sidebarDropdown() {
+        document.getElementById("myDropdownSidebar").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn-sidebar')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    };
+
+
+
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function contactDropdown() {
+        document.getElementById("myDropdownContact").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    };
+
+
+</script>
 
 </body>
 </html>

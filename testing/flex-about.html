@@ -11,45 +11,69 @@
 <body>
 
 
-    <div class="header">
-        <div class="nav">
-            <div class="nav-bars-div">
-                <li class="hide-desktop navbar-icons"> <i class="fas fa-bars"></i></li>
-                <h1 class="hide-desktop h1-mobile h1-tablet">Templify</h1>
-                <li class="hide-desktop navbar-icons">  <i class="fas fa-ellipsis-v"></i></li>
-            </div>
-            <ul class="ul-nav hide-mobile" role="navigation">
-                <li class="facebook__brand"><a href="flex-index.html"> <i class="fab fa-facebook"></i>Templify </a></li>
-                <li class="disabled">Create Template</li>
-                <li><a href="flex-contact.html">Contact</a> </li>
-                <li><a href="flex-about.html">About</a></li>
-                <li><a href="flex-login.html">Login<i class="fas fa-sign-in-alt"></i></a></li>
-            </ul>
+<div class="header">
+    <div class="nav dropdown">
+        <div class="nav-bars-div">
+            <li class="hide-desktop navbar-icons" onclick="sidebarDropdown()"> <i class="fas fa-bars dropbtn-sidebar"></i></li>
 
-            <h1 class="hide-mobile" style="text-align: center; color: white" >Simplify with Templify</h1>
-            <!--
-                            <div class="dropdown hide-desktop">
-                                <li class="hide-desktop"> <button onclick="myFunction()" class="dropbtn"> <i class="fas fa-ellipsis-v"></i></button></li>
-                                <div id="myDropdown" class="dropdown-content">
-                                    <a href="#"> Create Template</a>
-                                    <a href="#">Contact</a>
-                                    <a href="#">Login<i class="fas fa-sign-in-alt"></i></a>
-                                </div>
+
+
+
+
+
+            <h1 class="hide-desktop h1-mobile h1-tablet">Templify</h1>
+            <li class="hide-desktop navbar-icons" onclick="contactDropdown()">  <i class="fas fa-ellipsis-v dropbtn"></i></li>
+        </div>
+        <ul class="side-nav-smaller-dev hide-mobile hide-desktop dropdown-content-sidebar" id="myDropdownSidebar">
+            <div class="flex-span">
+                <span style="padding-left: 5%;"><h3 style="text-align: center; font-size: 2em; margin-top: 0.5em;">Choose category</h3></span>
+                <span><i class="fas fa-times close"></i></span>
+            </div>
+
+            <li class="items"><a class="black-a" href="#"> <span>Job application</span> <span><i class="fas fa-caret-right"></i></span></a></li>
+            <li class="items"><a class="black-a" href="#">School Essay</a></li>
+            <li class="items"><a class="black-a" href="#">HTML/CSS</a></li>
+            <li class="items"><a class="black-a" href="#">JavaScript</a></li>
+            <li class="items"><a class="black-a" href="#">Python</a></li>
+            <li class="items"><a class="black-a" href="#">Java</a></li>
+            <li class="items"><a class="black-a" href="#">Websites</a></li>
+            <li class="items"><a class="black-a" href="#">Posters</a></li>
+            <li class="items"><a class="black-a" href="#">Banners</a></li>
+            <li class="items"><a class="black-a" href="#">Logos</a></li>
+            <li class="items"><a class="black-a" href="#">Presentations</a></li>
+        </ul>
+        <ul class="ul-nav hide-mobile dropdown-content" role="navigation" id="myDropdownContact">
+            <li class="facebook__brand hide-mobile"><a href="flex-index.html"> <i class="fab fa-facebook"></i>Templify </a></li>
+            <li class="disabled"><a href="#">Create Template</a></li>
+            <li><a href="flex-contact.html">Contact</a> </li>
+            <li><a href="flex-about.html">About</a></li>
+            <li><a href="flex-login.html">Login<i class="fas fa-sign-in-alt"></i></a></li>
+        </ul>
+
+        <h1 class="hide-mobile" style="text-align: center; color: white" >Simplify with Templify</h1>
+        <!--
+                        <div class="dropdown hide-desktop">
+                            <li class="hide-desktop"> <button onclick="myFunction()" class="dropbtn"> <i class="fas fa-ellipsis-v"></i></button></li>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#"> Create Template</a>
+                                <a href="#">Contact</a>
+                                <a href="#">Login<i class="fas fa-sign-in-alt"></i></a>
                             </div>
-            -->
-            <div class="search">
-                <input type="text" class="search-input" placeholder="Search among 4,124 templates"> <i class="fas fa-search"></i>
-            </div> <!-- /search -->
-            <div class="div-filter-seach">
-                <ul class="filter-search">
-                    <li class="li-filter-search"><a href="#"> Filter <i class="fas fa-caret-down"></a></i>
+                        </div>
+        -->
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Search among 4,124 templates"> <i class="fas fa-search"></i>
+        </div> <!-- /search -->
+        <div class="div-filter-seach">
+            <ul class="filter-search">
+                <li class="li-filter-search"><a href="#"> Filter <i class="fas fa-caret-down"></a></i>
 
-                    </li>
-                </ul> <!-- /ul: filter-search -->
-            </div>
+                </li>
+            </ul> <!-- /ul: filter-search -->
+        </div>
 
-        </div> <!-- /nav -->
-    </div> <!-- /header -->
+    </div> <!-- /nav -->
+</div> <!-- /header -->
 
 
 
@@ -73,5 +97,54 @@
     </div>
 
 
+
+<script>
+
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+    function sidebarDropdown() {
+        document.getElementById("myDropdownSidebar").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn-sidebar')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    };
+
+
+
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function contactDropdown() {
+        document.getElementById("myDropdownContact").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    };
+
+
+</script>
 </body>
 </html>
