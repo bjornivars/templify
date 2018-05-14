@@ -37,9 +37,7 @@ h3{
     margin: 0;
 }
 
-a:hover {
-    border-bottom: 1px solid white;
-}
+
 
 .h2-style-products{
     padding-left: 3%;
@@ -127,6 +125,17 @@ ul.breadcrumb li a:hover {
 
 /* @@@@@@@@@@@@@@@@@@@@@@ DESKTOP QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (min-width: 789px) {
+    a:hover {
+        border-bottom: 1px solid white;
+    }
+
+    .logo{
+        width: 100%;
+    }
+
+    .span-style{
+        font-size: 0.9;
+    }
 
     h3{
         padding-top: 3%;
@@ -289,7 +298,7 @@ ul.breadcrumb li a:hover {
     }
 
     .h2-mobile{
-        font-size: 20px;
+        font-size: 1em;
         margin: 0;
     }
 
@@ -410,6 +419,10 @@ ul.breadcrumb li a:hover {
         width: 70%;
         padding-bottom: 2em;
 
+    }
+
+    .flex-name-stars{
+        font-size: 0.8em;
     }
 
 }
@@ -538,7 +551,7 @@ ul.breadcrumb li a:hover {
     }
 
     .h2-mobile{
-        font-size: 18px;
+        font-size: 1em;
         margin: 0;
     }
 
@@ -600,7 +613,7 @@ ul.breadcrumb li a:hover {
     }
 
     .flex-name-stars{
-        font-size: 14px;
+        font-size: 0.8em;
     }
 
     .flex-wrapper-contact{
