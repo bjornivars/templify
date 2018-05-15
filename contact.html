@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About us - Templify</title>
+    <title>Flex-contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="flex-style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
 </head>
 <body>
-
 
 <div class="header">
     <div class="nav dropdown">
@@ -43,11 +42,11 @@
             <li class="items"><a class="black-a" href="#">Presentations</a></li>
         </ul>
         <ul class="ul-nav hide-mobile dropdown-content" role="navigation" id="myDropdownContact">
-            <li class="facebook__brand hide-mobile"><a href="flex-index.html"> <i class="fab fa-facebook"></i>Templify </a></li>
+            <li class="facebook__brand hide-mobile"><a href="index.html"> <i class="fab fa-facebook"></i>Templify </a></li>
             <li class="disabled"><a href="#">Create Template</a></li>
-            <li><a href="flex-contact.html">Contact</a> </li>
-            <li><a href="flex-about.html">About</a></li>
-            <li><a href="flex-login.html">Login<i class="fas fa-sign-in-alt"></i></a></li>
+            <li><a href="contact.html">Contact</a> </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Login<i class="fas fa-sign-in-alt"></i></a></li>
         </ul>
 
         <h1 class="hide-mobile" style="text-align: center; color: white" >Simplify with Templify</h1>
@@ -80,22 +79,28 @@
     <div class="contact-wrapper">
         <div class="flex-wrapper-contact review-row">
             <div class="container-left-contact">
-                <h2 style="text-align: center;">About us</h2>
+                <h2 style="text-align: center;">How may we help you?</h2>
                 <div class="text-info-contact">
-                    <p> Templify is run by two
-                        dedicatet young men.</p>
-                    <p> We started in 2018, and
-                        love making your day better.</p>
+                    <p> Please let us know what´s on your mind</p>
+                    <p> We love all feedback, good or bad.</p>
                 </div>
             </div>
             <div class="container-right-contact">
                 <div class="text-info2-contact">
-                    <img src="https://images.pexels.com/photos/776615/pexels-photo-776615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Templify Staff" style="width: 100%;">
+                    <form>
+                        <input class="input-style" type="text" name="Name" value="" placeholder="Name" required>
+                        <br>
+                        <input class="input-style" type="text" name="email" value="" placeholder="Email" required>
+                        <br>
+                        <input class="input-style" type="text" value="" placeholder="Subject" required>
+                        <br>
+                        <textarea class="input-style" placeholder="Message"></textarea>
+                    <button class="button more-reviews input-style" value="submit"> <a href="success.html"> Send </a></button>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-
 
 
 <script>
@@ -146,5 +151,6 @@ toggle between hiding and showing the dropdown content */
 
 
 </script>
+
 </body>
 </html>
