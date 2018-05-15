@@ -62,10 +62,7 @@ a:hover {
 }
 
 .side-nav {
-    grid-area: sidebar;
-    background-color: yellow;
 
-    height: auto;
 }
 
 
@@ -138,6 +135,7 @@ ul.breadcrumb li a:hover {
 @media screen and (min-width: 789px) {
 
 
+
     .col-m-1 {
         width: 10%;
     }
@@ -178,6 +176,14 @@ ul.breadcrumb li a:hover {
     }
 
 
+    .template-wrapper{
+        background-color: transparent;
+        float: left;
+    }
+
+    .float-left{
+        float: left;
+    }
 
    /* INDEX */
 
@@ -185,9 +191,7 @@ ul.breadcrumb li a:hover {
         width: 100%;
     }
 
-    .span-style{
-        font-size: 0.9;
-    }
+
 
     .side-wrapper {
         background-color: none;
@@ -196,14 +200,7 @@ ul.breadcrumb li a:hover {
 
     }
 
-    .site-wrapper{
 
-    }
-    .main-wrapper{
-        float: right;
-        background-color: transparent;
-
-    }
 
     .side-nav{
         background-color: #F2F2F2;
@@ -253,9 +250,10 @@ ul.breadcrumb li a:hover {
         padding-bottom: 2em;
     }
 
-    .all-product-content{
-        width: 80%;
+
+    .margin-auto{
         margin: auto;
+
     }
 
     /* LOGIN */
@@ -264,8 +262,6 @@ ul.breadcrumb li a:hover {
     /* ALL */
     .flex-wrapper{
         display: flex;
-        margin-left: 3%;
-        margin-right: 3%;
         border: none;
     }
 
@@ -332,6 +328,7 @@ ul.breadcrumb li a:hover {
         background: linear-gradient(to right, #26d35a , #424aed);
         max-height: 10em;
         min-height: 15em;
+        margin-bottom: 1em;
     }
 
     .fa-sign-in-alt{
@@ -421,7 +418,7 @@ ul.breadcrumb li a:hover {
 
 
     .container-left-contact-success{
-        width: 35%;
+
         border: 1px solid transparent;
         border-radius: 7px 0px 0px 7px;
         background-color: #F2F2F2;
@@ -432,7 +429,6 @@ ul.breadcrumb li a:hover {
     .container-right-contact-success{
         display: flex;
         justify-content: center;
-        width: 35%;
         border: 1px solid transparent;
         border-radius: 0px 7px 7px 0px;
         background-color: #F2F2F2;
@@ -474,6 +470,75 @@ ul.breadcrumb li a:hover {
 /* @@@@@@@@@@@@@@@@@@@@@@ Tablet QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (min-width: 500px) and (max-width: 788px) {
 
+    .content{
+        background-color: yellow;
+        width: 100%;
+        height: auto;
+    }
+
+
+    .col-t-1 {
+        width: 10%;
+    }
+
+    .col-t-15 {
+        width: 15%;
+    }
+    .col-t-2 {
+        width: 20%;
+    }
+    .col-t-25{
+        width: 25%;
+    }
+    .col-t-3 {
+        width: 30%;
+    }
+    .col-t-4 {
+        width: 40%;
+    }
+    .col-t-5 {
+        width: 50%;
+    }
+    .col-t-6 {
+        width: 60%;
+    }
+    .col-t-7 {
+        width: 70%;
+    }
+    .col-t-8 {
+        width: 80%;
+    }
+    .col-t-9 {
+        width: 90%;
+    }
+    .col-t-10 {
+        width: 100%;
+    }
+
+
+
+    .template-wrapper{
+        background-color: yellow;
+        float: left;
+    }
+
+    .test{
+        float: left;
+    }
+
+    .items1{
+
+        border-radius: 4px;
+        margin: 4%;
+    }
+
+    .main-wrapper{
+        background-color: green;
+        margin: auto;
+
+
+    }
+
    /* ALL TABLET */
     h3{
         padding-top: 3%;
@@ -487,8 +552,6 @@ ul.breadcrumb li a:hover {
 
     .flex-wrapper{
         display: flex;
-        margin-left: 3%;
-        margin-right: 3%;
         border: none;
     }
 
@@ -632,12 +695,7 @@ ul.breadcrumb li a:hover {
 
 
     /* INDEX */
-    .side-wrapper{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 20px;
-        margin: 10px  10px 0px 10px;
-    }
+
 
     .span-style-category{
         margin-left: 10px;
@@ -655,10 +713,7 @@ ul.breadcrumb li a:hover {
         margin-right: 1em;
         color: white;
     }
-    .items1{
-        border: 1px solid rgba(180,223,255, 0.2);
-        border-radius: 4px;
-    }
+
     .fa-caret-right{
         font-size: 1.7em;
         padding: 0;
@@ -857,9 +912,58 @@ ul.breadcrumb li a:hover {
 /* @@@@@@@@@@@@@@@@@@@@@@ MOBILE QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (max-width: 500px) {
 
+    .col-sm-1 {
+        width: 10%;
+    }
 
+    .col-sm-15 {
+        width: 15%;
+    }
+    .col-sm-2 {
+        width: 20%;
+    }
+    .col-sm-25{
+        width: 25%;
+    }
+    .col-sm-3 {
+        width: 30%;
+    }
+    .col-sm-4 {
+        width: 40%;
+    }
+    .col-sm-5 {
+        width: 50%;
+    }
+    .col-sm-6 {
+        width: 60%;
+    }
+    .col-sm-7 {
+        width: 70%;
+    }
+    .col-sm-8 {
+        width: 80%;
+    }
+    .col-sm-9 {
+        width: 90%;
+    }
+    .col-sm-10 {
+        width: 100%;
+    }
+
+
+    .template-wrapper{
+        background-color: pink;
+        float: left;
+    }
+
+
+    .content{
+        background-color: orange;
+        width: 100%;
+        height: auto;
+    }
     /* ALL SITES MOBILE */
-    header{
+    .header{
         margin-bottom: 1em;
     }
 
@@ -923,6 +1027,8 @@ ul.breadcrumb li a:hover {
     .items1{
         border: 1px solid rgba(180,223,255, 0.2);
         border-radius: 4px;
+        float: left;
+        margin: 5%
     }
     h3{
         padding-top: 2%;
@@ -1009,12 +1115,7 @@ ul.breadcrumb li a:hover {
     /* /PRODUCT */
 
     /* INDEX */
-    .side-wrapper{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-        margin: 10px  10px 0px 10px;
-    }
+
     /* /INDEX */
 
 
