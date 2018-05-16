@@ -175,6 +175,11 @@ ul.breadcrumb li a:hover {
         width: 100%;
     }
 
+    body{
+        font-size: 1em;
+        line-height: 1.375em;
+    }
+
 
     .template-wrapper{
         background-color: transparent;
@@ -515,6 +520,11 @@ ul.breadcrumb li a:hover {
         width: 100%;
     }
 
+    body{
+        font-size: 1em;
+        line-height: 1.25em;
+    }
+
 
 
     .template-wrapper{
@@ -530,6 +540,7 @@ ul.breadcrumb li a:hover {
 
         border-radius: 4px;
         margin: 4%;
+        float: left;
     }
 
     .main-wrapper{
@@ -689,7 +700,7 @@ ul.breadcrumb li a:hover {
         margin-top: 5%;
         border: 1px solid gray;
         border-radius: 7px;
-        width: 90%;
+        width: 100%;
     }
     /* /CONTACT */
 
@@ -950,6 +961,11 @@ ul.breadcrumb li a:hover {
         width: 100%;
     }
 
+    body{
+        font-size: 1em;
+        line-height: 1.25em;
+    }
+
 
     .template-wrapper{
         background-color: pink;
@@ -1031,6 +1047,7 @@ ul.breadcrumb li a:hover {
         margin: 5%
     }
     h3{
+        font-size: 1.125em;
         padding-top: 2%;
         padding-bottom: 2%;
     }
@@ -1043,7 +1060,7 @@ ul.breadcrumb li a:hover {
         background-color: #2ABC72;
         padding: 0.5em;
         color: white;
-        width: 90%;
+        width: 100%;
         border: 1px solid #2ABC72;
         border-radius: 4px;
     }
@@ -1125,7 +1142,7 @@ ul.breadcrumb li a:hover {
         margin-top: 5%;
         border: 1px solid gray;
         border-radius: 4px;
-        width: 90%;
+        width: 100%;
     }
     /* /CONTACT */
 
@@ -1189,7 +1206,7 @@ ul.breadcrumb li a:hover {
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
-        margin-left: 77.6%;
+        margin-left: 47%;
     }
 
     /* Links inside the dropdown */
