@@ -8,6 +8,7 @@
 body {
     background-color: rgba(180,223,255, 0.2);
     font-family: sans-serif;
+     margin: 0;
 }
 .header{
     background: linear-gradient(to right, #26d35a , #424aed);
