@@ -77,49 +77,7 @@
 
 
 
-<form class="form formkontakt" name="test" action="order-completed.html#" onsubmit="return validateForm()">
-    <h2 class="h2-margin" id="top-target"> Oversikt</h2>
 
-    <div class="form-group input-group">
-
-        <h2 class="h2-margin"> Registrering</h2>
-
-
-
-
-        <div class="col-md-6 col-sm-10">
-            <input name="firstName" class="form-control date-input" id="firstName" placeholder="Fornavn">
-            <span class="error" id="firstNameError"></span>
-        </div>
-        <div class="col-md-6 col-sm-10">
-            <input name="lastName" class="form-control date-input" id="lastName"  placeholder="Etternavn">
-            <span class="error" id="lastNameError"></span>
-        </div>
-
-        <div class="col-md-6 col-sm-10">
-            <input name="email" class="form-control date-input" id="email" placeholder="E-post">
-            <span class="error" id="emailError"></span>
-        </div>
-
-        <div class="col-md-6 col-sm-10">
-            <input name="subject" class="form-control date-input" id="subject" placeholder="Subject">
-            <span class="error" id="subjectError"></span>
-        </div>
-
-        <div class="col-md-6 col-sm-10">
-            <textarea name="msg" class="form-control date-input" id="msg" placeholder="Message"></textarea>
-            <span class="error" id="msgError"></span>
-        </div>
-
-<br>
-
-
-        <input type="submit" value="Send" class="submit-style">
-        <div class="col-md-12">
-            <p>Fyll ut alle feltene for å aktivere "Send"knappen</p>
-        </div>
-    </div>
-</form>
 
 
 
@@ -138,15 +96,36 @@
             </div>
             <div class="col-m-5 container-right-contact-success">
                 <div class="text-info-2-contact-about">
-                    <form>
-                        <input class="input-style" type="text" name="Name" value="" placeholder="Name" required>
-                        <br>
-                        <input class="input-style" type="text" name="email" value="" placeholder="Email" required>
-                        <br>
-                        <input class="input-style" type="text" value="" placeholder="Subject" required>
-                        <br>
-                        <textarea class="input-style" placeholder="Message"></textarea>
-                    <button class="button input-style" value="submit"> <a href="success.html"> Send </a></button>
+                    <form class="form formkontakt" name="test" action="success.html#" onsubmit="return validateForm()">
+
+                        <div class="form-group input-group">
+
+
+                                <input name="firstName" class="input-style" id="firstName" placeholder="Fornavn">
+                                <span class="error" id="firstNameError"></span>
+
+
+                                <input name="lastName" class="input-style" id="lastName"  placeholder="Etternavn">
+                                <span class="error" id="lastNameError"></span>
+
+
+
+                                <input name="email" class="input-style" id="email" placeholder="E-post">
+                                <span class="error" id="emailError"></span>
+
+
+
+                                <input name="subject" class="input-style" id="subject" placeholder="Subject">
+                                <span class="error" id="subjectError"></span>
+
+
+
+                                <textarea name="msg" class="input-style" id="msg" placeholder="Message"></textarea>
+                                <span class="error" id="msgError"></span>
+
+                            <br>
+                            <input type="submit" value="Send" class="button input-style">
+                        </div>
                     </form>
                 </div>
             </div>
