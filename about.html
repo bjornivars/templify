@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <script src="dropdown-menus.js" defer></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2JsOqqcQKwH2bzotwM_rRtVYpnHkQ1Nc&callback=initMap" defer></script>
 
 </head>
 <body>
@@ -90,6 +91,36 @@
                     <img src="https://images.pexels.com/photos/776615/pexels-photo-776615.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Templify Staff" style="width: 100%;">
                 </div>
             </div>
+        </div>
+
+        <div class="col-m-7 margin-auto flex-wrapper justify-center">
+        <div class="col-m-10">
+            <div class="col-m-10 bg">
+                <p class="lead"> You can find us at:</p>
+                <p style="padding-left: 3em;">Framstadvegen 39</p>
+                <p style="padding-left: 3em;">3800 Bø i Telemark</p>
+
+                <div id="map" style="width:90%;height:300px;background:yellow; margin: auto"></div>
+
+                <script>
+                    function initMap() {
+                        var myLatLng = {lat: 59.410350, lng: 9.068493};
+
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            zoom: 13,
+                            center: myLatLng
+                        });
+
+                        var marker = new google.maps.Marker({
+                            position: myLatLng,
+                            map: map,
+                            title: 'Siem Software'
+                        });
+                    }
+                </script>
+
+            </div>
+         </div>
         </div>
     </div>
 
