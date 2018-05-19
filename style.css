@@ -378,14 +378,14 @@ ul.breadcrumb li a:hover {
 
     .fa-search {
         color: white;
-        padding: 0.3em;
+        padding: 0.7em;
         border: 1px solid white;
         border-radius: 0px 7px 7px 0px;
     }
 
     .search-input{
-        padding: 0.7em;
-        width: 30%;
+        padding: 1em;
+        width: 40%;
         border: 1px solid white;
         border-radius: 7px 0px 0px 7px;
 
@@ -554,7 +554,11 @@ ul.breadcrumb li a:hover {
         line-height: 1.25em;
     }
 
+    .text-info-2-contact-about{
+        width: 70%;
+        padding-bottom: 2em;
 
+    }
 
     .template-wrapper{
         float: left;
@@ -585,6 +589,7 @@ ul.breadcrumb li a:hover {
     .bg{
         background-color: #F2F2F2;
         padding-bottom: 3em;
+        width: 90%;
     }
 
     .lead{
@@ -660,13 +665,13 @@ ul.breadcrumb li a:hover {
 
     .fa-search {
         color: white;
-        padding: 0.3em;
+        padding: 0.6em;
         border: 1px solid white;
         border-radius: 0px 7px 7px 0px;
     }
 
     .search-input{
-        padding: 0.4em;
+        padding: 0.9em;
         width: 50%;
         border: 1px solid white;
         border-radius: 4px 0px 0px 4px;
@@ -845,6 +850,14 @@ ul.breadcrumb li a:hover {
 
     }
     /* /SUCCESS */
+
+    /* ABOUT */
+    .lead{
+        margin-top: 0;
+        padding-left: 3em;
+        font-weight: bold;
+    }
+    /* /ABOUT */
 
     /* LOGIN */
     .login-nav{
@@ -1169,6 +1182,21 @@ ul.breadcrumb li a:hover {
         border: 1px solid rgba(0, 0, 0, 0.7);
         border-radius: 4px;
         margin-top: 2em;
+    }
+
+    .bg{
+        background-color: #F2F2F2;
+        padding-bottom: 3em;
+        width: 100%;
+    }
+
+    .text-info-2-contact-about{
+        width: 90%;
+        padding-bottom: 2em;
+    }
+
+    .lead{
+        margin-top: 0;
     }
     /* /PRODUCT */
 
