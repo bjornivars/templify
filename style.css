@@ -136,6 +136,32 @@ ul.breadcrumb li a:hover {
 
 
 
+.footer {
+    float: left;
+    background-color: #ccc;
+    max-height: 15em;
+    min-height: 10em;
+    text-align: center;
+
+}
+
+.footer-contact{
+
+    float: left;
+    width: 45%;
+
+
+}
+
+.footer-products{
+
+    float: left;
+    width: 45%;
+
+
+}
+
+
 
 /* @@@@@@@@@@@@@@@@@@@@@@ DESKTOP QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (min-width: 789px) {

@@ -81,6 +81,7 @@ function validateSubject() {
     //console.log("Validating subject");
     var subject = document.forms.test.subject.value;
     var subjectErrorElement = document.getElementById('subject');
+   // var subjectpattern = /^(?![\s.]+$)[a-zA-Z\s.]*$/i;
     if (subject == "") {
         subjectErrorElement.style.border="2px solid #8a3636";
         validSubject = false;
