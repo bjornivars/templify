@@ -404,9 +404,9 @@ ul.breadcrumb li a:hover {
 
     .fa-search {
         color: white;
+        font-size: 16px;
         padding: 0.7em;
-        border: 1px solid white;
-        border-radius: 0px 7px 7px 0px;
+
     }
 
     .search-input{
@@ -440,6 +440,12 @@ ul.breadcrumb li a:hover {
         margin: 0 auto;
 
         border-radius: 4px 4px 0px 0px;
+    }
+
+    .search-btn{
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 0px 7px 7px 0px;
     }
 
     .search-form{
@@ -707,8 +713,7 @@ ul.breadcrumb li a:hover {
     .fa-search {
         color: white;
         padding: 0.6em;
-        border: 1px solid white;
-        border-radius: 0px 7px 7px 0px;
+
     }
 
     .search-input{
@@ -1115,8 +1120,7 @@ ul.breadcrumb li a:hover {
     .fa-search {
         color: white;
         padding: 0.3em;
-        border: 1px solid white;
-        border-radius: 0px 7px 7px 0px;
+
     }
 
     .search-input{
