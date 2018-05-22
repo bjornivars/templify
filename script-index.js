@@ -72,16 +72,17 @@ fetch("https://www.templify.no/api/api.php/template")
     })
     .then(function(myApi) {
         console.log(myApi);
+
         for (var template of myApi){
 
             var url = new URL(window.location.href);
             var search = url.searchParams.get("search");
-            console.log()
+             console.log(search);
 
             if (search){
 
                 if (template.title.toUpperCase().includes(search.toUpperCase())){
-
+                    console.log("fant " + template.title);
                     showTemplate(template);
 
                 } else {
@@ -92,7 +93,17 @@ fetch("https://www.templify.no/api/api.php/template")
             }
         } // for-loop end
 
-      //  window.localStorage.setItem("liste",JSON.stringify(list));
+        var count = document.getElementById("templates").childElementCount; // Counts how many child objects there is
+        console.log(count);
+        if (count === 0){
+            console.log("Nada Carda");
+            var h1 = document.createElement("h1");
+            var h1TextNode = document.createTextNode("No results for " + search);
+            h1.appendChild(h1TextNode);
+            myTemplates.appendChild(h1);
+            // If there are no cards that matches search, write "No results for" and search word
+        } // If count == 0 done
+
     });
 
 // "https://api.urbanapp.no/v1/venues/near/49.616673/6.128208/12/age/99/"

@@ -442,8 +442,14 @@ ul.breadcrumb li a:hover {
         border-radius: 4px 4px 0px 0px;
     }
 
+    .search-form{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
     .width-100{
-        background-color: #cccccc;
+        background-color: rgba(180,223,255, 0.1);
         width: 100%;
     }
     .black-a{
