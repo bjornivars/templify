@@ -33,18 +33,29 @@ function showTemplate(template){
 
 
     var spanLeft = document.createElement("span");
+    var spanLeftTag = template.category;
+    var spanLeftTextNode = document.createTextNode(spanLeftTag);
+    spanLeft.appendChild(spanLeftTextNode);
     spanLeft.classList.add("float-left");
 
     var spanRight = document.createElement("span");
-    spanLeft.classList.add("float-right");
+    var spanRightTag = template.rating;
+    var spanRightTextNode = document.createTextNode(spanRightTag);
+    spanRight.appendChild(spanRightTextNode);
+    spanRight.classList.add("float-right");
+
+    var ratingStar = document.createElement("i");
+    ratingStar.classList.add("fas");
+    ratingStar.classList.add("fa-star");
 
 
     box.appendChild(attribute);
     attribute.appendChild(img);
-    attribute.appendChild(h3);
+    attribute.appendChild(h3title);
     attribute.appendChild(spanDiv);
     spanDiv.appendChild(spanLeft);
     spanDiv.appendChild(spanRight);
+    spanRight.appendChild(ratingStar);
     myTemplates.appendChild(box);
 
 }
@@ -58,7 +69,7 @@ fetch("https://www.templify.no/api/api.php/template")
     })
     .then(function(myApi) {
         console.log(myApi);
-        for (var template of myApi.templates){
+        for (var template of myApi){
 
             var url = new URL(window.location.href);
             var search = url.searchParams.get("search");
