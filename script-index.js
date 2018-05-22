@@ -15,6 +15,8 @@ function showTemplate(template){
     attribute.classList.add("black-a"); // Adds class "btn" to attribute
     attribute.href = "product.html?id=" + template.id; // Gives the attribute an href that should contain "card-specific.html?id=" and the selected card´s id.
 
+    var width100 = document.createElement("div");
+    width100.classList.add("width-100");
 
     var img = document.createElement("img"); // Creates an element called img
     img.src = template.imgurl; // Makes variable img.src = card.imageUrl. The url of the image depends on which card displaye
@@ -50,12 +52,13 @@ function showTemplate(template){
 
 
     box.appendChild(attribute);
-    attribute.appendChild(img);
+    attribute.appendChild(width100);
     attribute.appendChild(h3title);
     attribute.appendChild(spanDiv);
     spanDiv.appendChild(spanLeft);
     spanDiv.appendChild(spanRight);
     spanRight.appendChild(ratingStar);
+    width100.appendChild(img);
     myTemplates.appendChild(box);
 
 }
