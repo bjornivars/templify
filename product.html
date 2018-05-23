@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <script src="dropdown-menus.js" defer></script>
+    <script src="script-product.js" defer></script>
 
 </head>
 <body>
@@ -42,7 +43,7 @@
         </ul>
         <ul class="ul-nav hide-mobile dropdown-content" role="navigation" id="myDropdownContact">
             <li class="facebook__brand hide-mobile"><a href="index.html"><img class=" h1-mobile h1-tablet logo" src="img/logo/templify-test.png" alt="Logo Templify"> </a></li>
-            <li class="disabled"><a href="#">Create Template</a></li>
+            <li class="disabled">Create Template</li>
             <li><a href="contact.html">Contact</a> </li>
             <li><a href="about.html">About</a></li>
             <li><a href="login.html">Login<i class="fas fa-sign-in-alt"></i></a></li>
@@ -60,7 +61,9 @@
                         </div>
         -->
         <div class="search">
-            <input type="text" class="search-input" placeholder="Search among 4,124 templates"> <i class="fas fa-search"></i>
+            <form class="search-form">
+                <input type="text" class="search-input" placeholder="Search among 4,124 templates" name="search" id="search"> <button class="search-btn"><i class="fas fa-search"></i></button>
+            </form>
         </div> <!-- /search -->
         <div class="div-filter-seach">
             <ul class="filter-search">
@@ -83,15 +86,15 @@
         </ul>
 
 
-        <div class="col-m-8 margin-auto">
+        <div class="col-m-8 margin-auto" id="test">
         <div class="flex-wrapper space-between">
                 <div class="product-img">
-                    <img src="https://www.pdffiller.com/preview/6/272/6272964.png" alt="img">
+                    <img src="https://cvnerden.no/wp-content/uploads/2011/02/CV-mal-ungdom.jpg" class="logoimg" id="logoImg" alt="img">
                 </div>
                 <div class="product-info">
                    <div class="text-info">
-                    <h2>Job application</h2>
-                    <p><strong>A complex job application made for
+                    <h2 id="hovednavn">Job application</h2>
+                    <p id="intro"><strong>A complex job application made for
                         experienced users with plenty of
                         references.</strong> </p>
                     <ul>
@@ -99,7 +102,7 @@
                         <li> - Copios</li>
                     </ul>
 
-                    <p>Made by: Bjørn-Ivar Skuggen </p>
+                    <p id="author">Made by: Bjørn-Ivar Skuggen </p>
                        <button class="button">Download</button>
                        </div>
                 </div>

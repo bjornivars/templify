@@ -13,7 +13,7 @@ function showTemplate(template){
 
     var attribute = document.createElement("a"); // Creates an a element called attribute
     attribute.classList.add("black-a"); // Adds class "btn" to attribute
-    attribute.href = "product.html?id=" + template.id; // Gives the attribute an href that should contain "card-specific.html?id=" and the selected card´s id.
+    attribute.href = "product.html?id=" + template.id; // Gives the attribute an href that should contain "product.html?id=" and the selected template´s id.
 
     var width100 = document.createElement("div");
     width100.classList.add("width-100");

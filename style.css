@@ -134,6 +134,9 @@ ul.breadcrumb li a:hover {
 }
 
 
+.logoimg{
+    width: 100%;
+}
 
 
 .footer {
@@ -340,6 +343,7 @@ ul.breadcrumb li a:hover {
     }
 
     .items1{
+        height: 15em;
         padding: 5px;
         margin: 2.5%;
         float: left;
@@ -616,6 +620,7 @@ ul.breadcrumb li a:hover {
     }
 
     .items1{
+        height: 13em;
         margin: 4%;
         float: left;
         padding: 5px;
@@ -1191,6 +1196,7 @@ ul.breadcrumb li a:hover {
         display: none;
     }
     .items1{
+        height: 10em;
         border-right: 1px solid #ccc;
         padding: 2px;
         float: left;
