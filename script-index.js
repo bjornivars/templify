@@ -63,6 +63,8 @@ function showTemplate(template){
 
 }
 
+
+
 var myTemplates = document.getElementById("templates");
 
 fetch("https://www.templify.no/api/api.php/template")
@@ -96,7 +98,7 @@ fetch("https://www.templify.no/api/api.php/template")
         var count = document.getElementById("templates").childElementCount; // Counts how many child objects there is
         console.log(count);
         if (count === 0){
-            console.log("Nada Carda");
+            console.log("Nada Templates");
             var h1 = document.createElement("h1");
             var h1TextNode = document.createTextNode("No results for " + search);
             h1.appendChild(h1TextNode);
@@ -107,5 +109,4 @@ fetch("https://www.templify.no/api/api.php/template")
     });
 
 // "https://api.urbanapp.no/v1/venues/near/49.616673/6.128208/12/age/99/"
-
 

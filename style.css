@@ -123,13 +123,13 @@ ul.breadcrumb li+li:before {
 
 /* Add a color to all links inside the list */
 ul.breadcrumb li a {
-    color: #0275d8;
+    color: #ccc;
     text-decoration: none;
 }
 
 /* Add a color on mouse-over */
 ul.breadcrumb li a:hover {
-    color: #01447e;
+    color: black;
     text-decoration: underline;
 }
 
@@ -169,7 +169,15 @@ ul.breadcrumb li a:hover {
     border-top: 1px solid #ccc;
 }
 
+.login-nav{
+    display: flex;
+    justify-content: center;
+}
 
+.justify-between{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* @@@@@@@@@@@@@@@@@@@@@@ DESKTOP QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (min-width: 789px) {
@@ -210,6 +218,9 @@ ul.breadcrumb li a:hover {
     }
     .col-m-9 {
         width: 90%;
+    }
+    .col-m-95{
+        width: 95%;
     }
     .col-m-10 {
         width: 100%;
@@ -334,7 +345,7 @@ ul.breadcrumb li a:hover {
     }
 
     .text-info-contact-about-login{
-        width: 55%;
+        width: 65%;
         border: none;
         margin: 0 auto;
     }

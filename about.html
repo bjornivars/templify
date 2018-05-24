@@ -28,6 +28,7 @@
                 <span><i class="fas fa-times close" onclick="removeSide()"></i></span>
             </div>
 
+            <li id="categories-sidebar"> </li>
             <li class="items"><a class="black-a" href="#"> <span>Job application</span> <span><i class="fas fa-caret-right"></i></span></a></li>
             <li class="items"><a class="black-a" href="#">School Essay</a></li>
             <li class="items"><a class="black-a" href="#">HTML/CSS</a></li>
@@ -42,7 +43,7 @@
         </ul>
         <ul class="ul-nav hide-mobile dropdown-content" role="navigation" id="myDropdownContact">
             <li class="facebook__brand hide-mobile"><a href="index.html"><img class=" h1-mobile h1-tablet logo" src="img/logo/templify-test.png" alt="Logo Templify"> </a></li>
-            <li class="disabled"><a href="#">Create Template</a></li>
+            <li class="disabled">Create Template</li>
             <li><a href="contact.html">Contact</a> </li>
             <li><a href="about.html">About</a></li>
             <li><a href="login.html">Login<i class="fas fa-sign-in-alt"></i></a></li>
@@ -60,7 +61,9 @@
                         </div>
         -->
         <div class="search">
-            <input type="text" class="search-input" placeholder="Search among 4,124 templates"> <i class="fas fa-search"></i>
+            <form class="search-form">
+                <input type="text" class="search-input" placeholder="Search among 4,124 templates" name="search" id="search"> <button class="search-btn"><i class="fas fa-search"></i></button>
+            </form>
         </div> <!-- /search -->
         <div class="div-filter-seach">
             <ul class="filter-search">
@@ -78,12 +81,13 @@
     <div class="contact-wrapper">
         <div class="col-m-7 margin-auto flex-wrapper justify-center review-row">
             <div class="col-m-5 container-left-contact-success">
-                <h2 style="text-align: center;">About us</h2>
                 <div class="text-info-contact-about-login">
+                    <h2>About us</h2>
                     <p> Templify is run by two
                         dedicatet young men.</p>
                     <p> We started in 2018, and
                         love making your day better.</p>
+
                 </div>
             </div>
             <div class="col-m-5 container-right-contact-success">
@@ -94,12 +98,13 @@
         </div>
 
         <div class="col-m-7 margin-auto flex-wrapper justify-center">
-        <div class="col-m-10 col-t-10 col-sm-10 bg">
-            <div class="">
-                <p class="lead"> You can find us at:</p>
-                <p style="padding-left: 3em;">Framstadvegen 39</p>
-                <p style="padding-left: 3em;">3800 Bø i Telemark</p>
-
+        <div class="col-m-10 col-t-10 col-sm-10 bg " style="padding-top: 3em">
+            <div class="col-m-95 margin-auto">
+                <div class="">
+                <span class="lead" style="padding-left: 5%"> You can find us at:</span>
+                <span style="padding-left: 2em;">Framstadvegen 39</span>
+                <span style="padding-left: 2em;">3800 Bø i Telemark</span>
+                </div>
                 <div id="map" style="width:90%;height:300px;background:yellow; margin: auto"></div>
 
                 <script>
@@ -107,7 +112,7 @@
                         var myLatLng = {lat: 59.410350, lng: 9.068493};
 
                         var map = new google.maps.Map(document.getElementById('map'), {
-                            zoom: 13,
+                            zoom: 14,
                             center: myLatLng
                         });
 
@@ -128,25 +133,25 @@
 <div class="footer col-m-10 col-t-10 col-sm-10 margin-auto footer-wrapper justify-center review-row">
     <div class="footer-contact col-m-3 col-t-3 col-sm-3">
         <ul>
-            <h3>Products</h3>
+            <li>Products</li>
             <a href="#" class="black-a"> <li> Templates </li> </a>
             <a href="#" class="black-a"> <li> Storage </li> </a>
             <a href="#" class="black-a"> <li> Partnership </li> </a>
         </ul>
     </div>
     <div class="footer-products col-m-3 col-t-3 col-sm-3">
-
-        <h3>Information</h3>
-        <a href="contact.html" class="black-a"> <li> FAQ </li> </a>
-        <a href="about.html" class="black-a"> <li> Pro user </li> </a>
+        <ul>
+            <li>Information</li>
+            <a href="contact.html" class="black-a"> <li> FAQ </li> </a>
+            <a href="about.html" class="black-a"> <li> Pro user </li> </a>
         </ul>
     </div>
 
     <div class="footer-products col-m-3 col-t-3 col-sm-3">
-
-        <h3>Sites</h3>
-        <a href="contact.html" class="black-a"> <li> Contact us </li> </a>
-        <a href="about.html" class="black-a"> <li> About us </li> </a>
+        <ul>
+            <li>Sites</li>
+            <a href="contact.html" class="black-a"> <li> Contact us </li> </a>
+            <a href="about.html" class="black-a"> <li> About us </li> </a>
         </ul>
     </div>
 
