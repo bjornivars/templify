@@ -2,6 +2,8 @@
 
 function buildSidebar(){
     var sidebarMenu = document.getElementById("sidebarMenu");
+    var mobileMenu = document.getElementById("mobileMenu");
+
     fetch("https://www.templify.no/api/api.php/category")
         .then(function(response) {
             return response.json();
@@ -22,8 +24,9 @@ function buildSidebar(){
                 sidebarAttr.text = cat.name;
 
                 sidebarLi.appendChild(sidebarAttr);
+                var mobileLi = sidebarLi.cloneNode(true);
                 sidebarMenu.appendChild(sidebarLi);
-
+                mobileMenu.appendChild(mobileLi);
 
             }
         })
