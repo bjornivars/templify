@@ -9,6 +9,13 @@
 // Code Bjørn-Ivar Skuggen
 
 
+
+
+
+
+
+
+
 var url = new URL(window.location.href); // Creates variable url. new URL window.location.href returns the href (URL) of the current page
 var id = url.searchParams.get("id"); // returns the first value associated to the given search parameter.
 
@@ -24,12 +31,7 @@ var id = url.searchParams.get("id"); // returns the first value associated to th
             document.getElementById("hovednavn").innerText = template.title;
             document.getElementById("intro").innerText = template.intro;
 
-
-
             // Please get the following keys: imageUrl, name, text, rarity and colors. Display their values.
-
-
-
         }) // Fetch .then end
 
 
