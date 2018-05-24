@@ -141,7 +141,7 @@ ul.breadcrumb li a:hover {
 
 .footer {
     float: left;
-    background-color: #ccc;
+    background-color: #F2F2F2;
     max-height: 15em;
     min-height: 10em;
     text-align: center;
@@ -162,6 +162,11 @@ ul.breadcrumb li a:hover {
     width: 45%;
 
 
+}
+
+.footer-wrapper{
+    display: flex;
+    border-top: 1px solid #ccc;
 }
 
 
