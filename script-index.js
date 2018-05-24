@@ -10,17 +10,17 @@ function buildSidebar(){
 
         })
         .then(function(myCats) {
-            console.log(myCats);
+          //  console.log(myCats);
 
             for (var cat of myCats){
-                console.log(cat.name);
+             //   console.log(cat.name);
 
                 var sidebarLi = document.createElement("li");
                 sidebarLi.classList.add("items");
 
                 var sidebarAttr = document.createElement("a");
                 sidebarAttr.classList.add("black-a");
-                sidebarAttr.href = "#cat" + cat.id;
+                sidebarAttr.href = "?cat=" + cat.id;
                 sidebarAttr.text = cat.name;
 
                 sidebarLi.appendChild(sidebarAttr);
@@ -28,12 +28,9 @@ function buildSidebar(){
                 sidebarMenu.appendChild(sidebarLi);
                 mobileMenu.appendChild(mobileLi);
 
+
             }
         })
-
-
-
-
 
 }
 
@@ -74,7 +71,7 @@ function showTemplate(template){
 
 
     var spanLeft = document.createElement("span");
-    var spanLeftTag = template.category;
+    var spanLeftTag = template.catname;
     var spanLeftTextNode = document.createTextNode(spanLeftTag);
     spanLeft.appendChild(spanLeftTextNode);
     spanLeft.classList.add("float-left");
@@ -112,25 +109,39 @@ fetch("https://www.templify.no/api/api.php/template")
 
     })
     .then(function(myApi) {
-        console.log(myApi);
+       // console.log(myApi);
 
         for (var template of myApi){
 
             var url = new URL(window.location.href);
             var search = url.searchParams.get("search");
-             console.log(search);
+            var catFilter = url.searchParams.get("cat");
+
+
+             // console.log(search);
+
+          //  console.log(template.category);
 
             if (search){
 
                 if (template.title.toUpperCase().includes(search.toUpperCase())){
-                    console.log("fant " + template.title);
+                    console.log("found " + template.title);
                     showTemplate(template);
 
                 } else {
                     console.log("Template did not match");
                 }
             } else {
-                showTemplate(template);
+
+                if (catFilter){
+                    if (template.category === catFilter){
+                        console.log("found " + template.category);
+                        showTemplate(template);
+
+                    }
+                } else {
+                    showTemplate(template);
+                }
             }
         } // for-loop end
 

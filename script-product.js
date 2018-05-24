@@ -20,17 +20,26 @@ var url = new URL(window.location.href); // Creates variable url. new URL window
 var id = url.searchParams.get("id"); // returns the first value associated to the given search parameter.
 
 
-    fetch("https://www.templify.no/api/api.php/template" + id) // Fetches the API + id
+    fetch("https://www.templify.no/api/api.php/template/" + id) // Fetches the API + id
         .then(function(response){
             return response.json(); // Define resonse as json
             // console.log(response.json());
         })
         .then(function(response) { // Put json response in variable list, and create function
-            var template = response.template; // Loop through json response, and grab each single card
+            var template = response; // Loop through json response, and grab each single card
             console.log(response.id);
             document.getElementById("hovednavn").innerText = template.title;
+            //console.dir(response);
             document.getElementById("intro").innerText = template.intro;
-
+            document.getElementById("author").innerText = "Made by " + template.author;
+            document.getElementById("description").innerText = template.description;
+            document.getElementById("downloadBtn").setAttribute( "onClick", "location.href='"+template.downloadurl+"'"  )
+            var img = document.getElementById("logoImg");
+            if (template.imgurl === null){
+                img.src = "https://www.happyceliac.com/wp-content/uploads/2018/02/placeholder-image.png";
+            } else {
+                img.src = template.imgurl; // Makes variable img.src = place.imageUrl. The url of the image depends on which place displaye
+            }
             // Please get the following keys: imageUrl, name, text, rarity and colors. Display their values.
         }) // Fetch .then end
 
