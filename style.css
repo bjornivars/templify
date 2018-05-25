@@ -1,12 +1,14 @@
 
 /* @@@@@@@@@@@@@@@@@@@@@@ ALL DEVICES QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 
+
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: rgba(180,223,255, 0.2);
+    background-color: rgba(180,223,255, 0.1);
     font-family: sans-serif;
      margin: 0;
 }
@@ -19,13 +21,20 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
+h2{
+    font-size: 25px;
+}
+
 h3{
-    padding-top: 3%;
+    padding-top: 1em;
     padding-bottom: 3%;
+    margin: 0;
+
 }
 
 p{
     font-family: Helvetica;
+    font-size: 17px;
 }
 
 ul {
@@ -43,9 +52,6 @@ a {
     color: white;
 }
 
-h3{
-    margin: 0;
-}
 
 a:hover {
     border-bottom: 1px solid white;
@@ -103,7 +109,7 @@ a:hover {
 
 /* Style the list */
 ul.breadcrumb {
-    padding: 10px 16px;
+    padding: 10px 10px;
     list-style: none;
     background-color: transparent;
 }
@@ -111,7 +117,7 @@ ul.breadcrumb {
 /* Display list items side by side */
 ul.breadcrumb li {
     display: inline;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* Add a slash symbol (/) before/behind each list item */
@@ -123,6 +129,7 @@ ul.breadcrumb li+li:before {
 
 /* Add a color to all links inside the list */
 ul.breadcrumb li a {
+    font-size: 14px;
     color: #ccc;
     text-decoration: none;
 }
@@ -135,7 +142,9 @@ ul.breadcrumb li a:hover {
 
 
 .logoimg{
-    width: 100%;
+    max-width: 100%;
+    height: 20em;
+
 }
 
 
@@ -177,6 +186,20 @@ ul.breadcrumb li a:hover {
 .justify-between{
     display: flex;
     justify-content: space-between;
+}
+
+.footer-headline{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.footer-a{
+    margin-bottom: 0.6em;
+}
+.footer-a:hover{
+    text-decoration: underline;
 }
 
 /* @@@@@@@@@@@@@@@@@@@@@@ DESKTOP QUERY @@@@@@@@@@@@@@@@@@@@@@ */
@@ -253,6 +276,16 @@ ul.breadcrumb li a:hover {
         margin-top: 0.7em;
     }
 
+    .span-div-test{
+        position: relative;
+    }
+    .span-div-test p{
+        position: absolute;
+        bottom: 0;
+    }
+    .inline{
+        display: inline;
+    }
    /* INDEX */
 
     .logo{
@@ -363,7 +396,6 @@ ul.breadcrumb li a:hover {
         padding: 5px;
         margin: 2.5%;
         float: left;
-        border-right: 1px solid #ccc;
     }
 
     .bg{
@@ -640,7 +672,6 @@ ul.breadcrumb li a:hover {
         margin: 4%;
         float: left;
         padding: 5px;
-        border-right: 1px solid #ccc;
     }
 
     .main-wrapper{
@@ -672,10 +703,14 @@ ul.breadcrumb li a:hover {
     }
 
     h3{
+        font-size: 16px;
         padding-top: 3%;
         padding-bottom: 3%;
     }
 
+    span{
+        font-size: 14px;
+    }
     .nav{
         max-height: 7em;
         min-height: 3em;
@@ -829,6 +864,9 @@ ul.breadcrumb li a:hover {
         float: right;
     }
 
+    .fa-sign-in-alt{
+        padding-left: 0.5em;
+    }
     /* /ALLE TABLET */
 
 
@@ -1213,7 +1251,7 @@ ul.breadcrumb li a:hover {
     }
     .items1{
         height: 10em;
-        border-right: 1px solid #ccc;
+        padding: 2px;
         padding: 2px;
         float: left;
         margin: 5%
@@ -1273,6 +1311,10 @@ ul.breadcrumb li a:hover {
     .span-div{
         margin-bottom: 0.5em;
         margin-top: 0.5em;
+    }
+
+    .fa-sign-in-alt{
+        padding-left: 0.4em;
     }
     /* /All mobile */
 
