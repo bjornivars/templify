@@ -41,7 +41,7 @@ function showTemplate(template){
 
     var box = document.createElement("div"); // Creates a div called box
     box.classList.add("float-left");
-    box.classList.add("col-m-2"); // Adds class "col-sm-4" to box div
+    box.classList.add("col-m-24"); // Adds class "col-m-24" to box div
     box.classList.add("col-t-25");
     box.classList.add("col-sm-4");
     box.classList.add("items1");
@@ -49,6 +49,7 @@ function showTemplate(template){
 
     var attribute = document.createElement("a"); // Creates an a element called attribute
     attribute.classList.add("black-a"); // Adds class "btn" to attribute
+    attribute.classList.add("container-a");
     attribute.href = "product.html?id=" + template.id; // Gives the attribute an href that should contain "product.html?id=" and the selected template´s id.
 
     var width100 = document.createElement("div");
@@ -59,12 +60,19 @@ function showTemplate(template){
     img.classList.add("img-mobile");
     // img.style.width = "100%"; // Sets image style width to 100%
 
+    var infoDiv = document.createElement("div");
+    infoDiv.classList.add("infoDiv");
 
     var h3title = document.createElement("h3"); // Creates a h4 element called h4
     var h3titleTag = template.title; // Makes variable h4Tag = card.name. The name of the card depends on which card displayed
     var h3TextNode = document.createTextNode(h3titleTag); // Makes a text node out of the result of card.name
     h3title.appendChild(h3TextNode); // Puts the h3TextNode inside the h3 tag to display name of the template
 
+    var madeBy = document.createElement("span");
+    var madeByTitleTag = template.author; // Makes variable h4Tag = card.name. The name of the card depends on which card displayed
+    var madeByTextNode = document.createTextNode(madeByTitleTag); // Makes a text node out of the result of card.name
+    madeBy.appendChild(madeByTextNode); // Puts the h3TextNode inside the h3 tag to display name of the template
+    madeBy.classList.add("madeby-span");
 
     var spanDiv = document.createElement("div");
     spanDiv.classList.add("span-div");
@@ -89,12 +97,14 @@ function showTemplate(template){
 
     box.appendChild(attribute);
     attribute.appendChild(width100);
-    attribute.appendChild(h3title);
-    attribute.appendChild(spanDiv);
+    width100.appendChild(img);
+    attribute.appendChild(infoDiv);
+    infoDiv.appendChild(h3title);
+    infoDiv.appendChild(madeBy);
+    infoDiv.appendChild(spanDiv);
     spanDiv.appendChild(spanLeft);
     spanDiv.appendChild(spanRight);
     spanRight.appendChild(ratingStar);
-    width100.appendChild(img);
     myTemplates.appendChild(box);
 
 }

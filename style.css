@@ -1,14 +1,19 @@
 
 /* @@@@@@@@@@@@@@@@@@@@@@ ALL DEVICES QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 
+.infoDiv{
+    padding-left: 0.65em;
+}
 
-
+.container-a{
+    background-color: #fff;
+}
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: rgba(180,223,255, 0.1);
+    background-color: #f7f8fa;
     font-family: sans-serif;
      margin: 0;
 }
@@ -20,6 +25,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Helvetica Neue";
     font-weight: normal;
 }
+
+
 
 h2{
     font-size: 25px;
@@ -87,7 +94,7 @@ a:hover {
 }
 
 .items1{
-   /* background-color: #F2F2F2;
+    background-color: #fff;
     border: 1px solid rgba(180,223,255, 0.2);*/
 }
 
@@ -202,6 +209,7 @@ ul.breadcrumb li a:hover {
     text-decoration: underline;
 }
 
+
 /* @@@@@@@@@@@@@@@@@@@@@@ DESKTOP QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (min-width: 789px) {
 
@@ -216,8 +224,11 @@ ul.breadcrumb li a:hover {
     }
     .col-m-2 {
         width: 20%;
-
     }
+    .col-m-24 {
+        width: 24%;
+    }
+
     .col-m-25{
         width: 25%;
     }
@@ -272,8 +283,13 @@ ul.breadcrumb li a:hover {
     }
 
     .span-div{
+        display: inline-block;
         margin-bottom: 0.7em;
         margin-top: 0.7em;
+    }
+
+    .madeby-span{
+        display: block;
     }
 
     .span-div-test{
@@ -392,10 +408,12 @@ ul.breadcrumb li a:hover {
     }
 
     .items1{
-        height: 15em;
+        height: 17em;
         padding: 5px;
-        margin: 2.5%;
+        margin-bottom: 2.5%;
+        margin-right: 1%;
         float: left;
+       box-shadow:  0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
     }
 
     .bg{
@@ -507,7 +525,7 @@ ul.breadcrumb li a:hover {
     }
 
     .width-100{
-        background-color: rgba(180,223,255, 0.1);
+        background-color: rgba(52,141,165, 0.3);
         width: 100%;
     }
     .black-a{
@@ -970,7 +988,7 @@ ul.breadcrumb li a:hover {
         border-radius: 4px 4px 0px 0px;
     }
     .width-100{
-        background-color: rgba(180,223,255, 0.1);
+      /*   background-color: rgba(180,223,255, 0.1); */
         width: 100%;
     }
 
@@ -1205,7 +1223,7 @@ ul.breadcrumb li a:hover {
     }
 
     .width-100{
-        background-color: rgba(180,223,255, 0.1);
+    /*     background-color: rgba(180,223,255, 0.1); */
         width: 100%;
     }
 

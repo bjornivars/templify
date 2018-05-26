@@ -31,6 +31,8 @@ var id = url.searchParams.get("id"); // returns the first value associated to th
             document.getElementById("hovednavn").innerText = template.title;
             //console.dir(response);
             document.getElementById("intro").innerText = template.intro;
+            document.getElementById("keyword1").innerText = "- " + template.keyword1;
+            document.getElementById("keyword2").innerText = "- " + template.keyword2;
             document.getElementById("author").innerText = "Made by " + template.author;
             document.getElementById("description").innerText = template.description;
             document.getElementById("downloadBtn").setAttribute( "onClick", "location.href='"+template.downloadurl+"'"  )
