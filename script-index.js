@@ -42,8 +42,8 @@ function showTemplate(template){
     var box = document.createElement("div"); // Creates a div called box
     box.classList.add("float-left");
     box.classList.add("col-m-24"); // Adds class "col-m-24" to box div
-    box.classList.add("col-t-25");
-    box.classList.add("col-sm-4");
+    box.classList.add("col-t-3");
+    box.classList.add("col-sm-9");
     box.classList.add("items1");
 
 
@@ -57,6 +57,7 @@ function showTemplate(template){
 
     var img = document.createElement("img"); // Creates an element called img
     img.src = template.imgurl; // Makes variable img.src = card.imageUrl. The url of the image depends on which card displaye
+    img.setAttribute("alt", "Image for " + template.title);
     img.classList.add("img-mobile");
     // img.style.width = "100%"; // Sets image style width to 100%
 
@@ -83,12 +84,15 @@ function showTemplate(template){
     var spanLeftTextNode = document.createTextNode(spanLeftTag);
     spanLeft.appendChild(spanLeftTextNode);
     spanLeft.classList.add("float-left");
+    spanLeft.classList.add("madeby-span");
 
     var spanRight = document.createElement("span");
     var spanRightTag = template.rating;
     var spanRightTextNode = document.createTextNode(spanRightTag);
     spanRight.appendChild(spanRightTextNode);
     spanRight.classList.add("float-right");
+    spanRight.classList.add("madeby-span");
+
 
     var ratingStar = document.createElement("i");
     ratingStar.classList.add("fas");

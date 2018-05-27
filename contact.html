@@ -15,33 +15,23 @@
 <div class="header">
     <div class="nav dropdown">
         <div class="nav-bars-div">
-            <li class="hide-desktop navbar-icons" onclick="sidebarDropdown()"> <i class="fas fa-bars dropbtn-sidebar"></i></li>
-
+            <span class="hide-desktop navbar-icons" onclick="sidebarDropdown()"> <i class="fas fa-bars dropbtn-sidebar"></i></span>
 
             <a href="index.html"> <img class="hide-desktop h1-mobile h1-tablet" src="img/logo/templify-test.png" alt="Logo Templify"> </a>
-            <li class="hide-desktop navbar-icons" onclick="contactDropdown()">  <i class="fas fa-ellipsis-v dropbtn"></i></li>
+            <span class="hide-desktop navbar-icons" onclick="contactDropdown()">  <i class="fas fa-ellipsis-v dropbtn"></i></span>
         </div>
-        <ul class="side-nav-smaller-dev hide-mobile hide-desktop dropdown-content-sidebar" id="myDropdownSidebar">
-            <div class="flex-span">
-                <span style="padding-left: 5%;"><h2 style="text-align: center; font-size: 2em; margin-top: 0.5em;">Choose category</h2></span>
+        <div id="myDropdownSidebar" class="side-nav-smaller-dev hide-mobile hide-desktop dropdown-content-sidebar">
+            <div class="flex-span hide-desktop">
+                <span style="padding-left: 5%; padding-top: 1em; text-align: center; font-size: 1em;">Choose category</span>
                 <span><i class="fas fa-times close" onclick="removeSide()"></i></span>
             </div>
 
-            <li id="categories-sidebar"> </li>
-            <li class="items"><a class="black-a" href="#"> <span>Job application</span> <span><i class="fas fa-caret-right"></i></span></a></li>
-            <li class="items"><a class="black-a" href="#">School Essay</a></li>
-            <li class="items"><a class="black-a" href="#">HTML/CSS</a></li>
-            <li class="items"><a class="black-a" href="#">JavaScript</a></li>
-            <li class="items"><a class="black-a" href="#">Python</a></li>
-            <li class="items"><a class="black-a" href="#">Java</a></li>
-            <li class="items"><a class="black-a" href="#">Websites</a></li>
-            <li class="items"><a class="black-a" href="#">Posters</a></li>
-            <li class="items"><a class="black-a" href="#">Banners</a></li>
-            <li class="items"><a class="black-a" href="#">Logos</a></li>
-            <li class="items"><a class="black-a" href="#">Presentations</a></li>
-        </ul>
-        <ul class="ul-nav hide-mobile dropdown-content" role="navigation" id="myDropdownContact">
-            <li class="facebook__brand hide-mobile"><a href="index.html"><img class=" h1-mobile h1-tablet logo" src="img/logo/templify-test.png" alt="Logo Templify"> </a></li>
+            <ul id="mobileMenu">
+
+            </ul>
+        </div>
+        <ul class="ul-nav hide-mobile dropdown-content" id="myDropdownContact">
+            <li class="facebook__brand hide-mobile nohover"><a href="index.html" class="nohover"><img class=" h1-mobile h1-tablet logo" src="img/logo/templify-test.png" alt="Logo Templify"> </a></li>
             <li class="disabled hide-mobile">Create Template</li>
             <li><a href="contact.html">Contact</a> </li>
             <li><a href="about.html">About</a></li>
@@ -66,7 +56,7 @@
         </div> <!-- /search -->
         <div class="div-filter-seach">
             <ul class="filter-search">
-                <li class="li-filter-search"><a href="#"> Filter <i class="fas fa-caret-down"></a></i>
+                <li class="li-filter-search"><a href="#"> Filter <i class="fas fa-caret-down"></i></a>
 
                 </li>
             </ul> <!-- /ul: filter-search -->
@@ -74,7 +64,6 @@
 
     </div> <!-- /nav -->
 </div> <!-- /header -->
-
 
 
 
@@ -142,24 +131,24 @@
     <div class="footer-contact col-m-3 col-t-3 col-sm-3">
         <ul>
             <li class="footer-headline">Products</li>
-            <a href="index.html" class="black-a"> <li class="footer-a"> Templates </li> </a>
-            <a href="#" class="black-a"> <li class="footer-a"> Storage </li> </a>
-            <a href="#" class="black-a"> <li class="footer-a"> Partnership </li> </a>
+            <li class="footer-a"> <a href="index.html" class="black-a">Templates </a></li>
+            <li class="footer-a"> <a href="#" class="black-a">Storage </a></li>
+            <li class="footer-a"><a href="#" class="black-a"> Partnership</a> </li>
         </ul>
     </div>
     <div class="footer-products col-m-3 col-t-3 col-sm-3">
         <ul>
             <li class="footer-headline">Information</li>
-            <a href="#" class="black-a "> <li class="footer-a"> FAQ </li> </a>
-            <a href="#" class="black-a "> <li class="footer-a"> Pro user </li> </a>
+            <li class="footer-a"> <a href="#" class="black-a ">FAQ </a></li>
+            <li class="footer-a"> <a href="#" class="black-a ">Pro user </a></li>
         </ul>
     </div>
 
     <div class="footer-products col-m-3 col-t-3 col-sm-3">
         <ul>
             <li class="footer-headline">Sites</li>
-            <a href="contact.html" class="black-a"> <li class="footer-a"> Contact us </li> </a>
-            <a href="about.html" class="black-a "> <li class="footer-a"> About us </li> </a>
+            <li class="footer-a"> <a href="contact.html" class="black-a">Contact us</a> </li>
+            <li class="footer-a"> <a href="about.html" class="black-a ">About us </a></li>
         </ul>
     </div>
 
