@@ -933,6 +933,7 @@ ul.breadcrumb li a:hover {
         margin-left: 1em;
         margin-right: 1em;
         color: white;
+        font-size: 2em;
     }
 
     .fa-caret-right{
@@ -1038,16 +1039,13 @@ ul.breadcrumb li a:hover {
     /* /LOGIN */
 
 
-
-
     /* Dropdown Button */
     .dropbtn {
         background-color: transparent;
         color: white;
-        font-size: 3em;
         border: none;
         cursor: pointer;
-        margin-top: 21.440px;;
+
     }
 
     /* Dropdown button on hover & focus */
@@ -1095,10 +1093,10 @@ ul.breadcrumb li a:hover {
     .dropbtn-sidebar {
         background-color: transparent;
         color: white;
-        font-size: 3em;
+
         border: none;
         cursor: pointer;
-        margin-top: 21.440px;
+
     }
 
     /* Dropdown button on hover & focus */
@@ -1472,7 +1470,7 @@ ul.breadcrumb li a:hover {
     .dropbtn {
         background-color: transparent;
         color: white;
-        font-size: 2em;
+
         border: none;
         cursor: pointer;
         margin-top: 5px;;

@@ -15,37 +15,29 @@
 <div class="header">
     <div class="nav dropdown">
         <div class="nav-bars-div">
-            <li class="hide-desktop navbar-icons" onclick="sidebarDropdown()"> <i class="fas fa-bars dropbtn-sidebar"></i></li>
+            <button class="hide-desktop navbar-icons" onclick="sidebarDropdown()" tabindex="2"> <i class="fas fa-bars dropbtn-sidebar"></i></button>
 
-
-            <a href="index.html"> <img class="hide-desktop h1-mobile h1-tablet" src="img/logo/templify-test.png" alt="Logo Templify"> </a>
-            <li class="hide-desktop navbar-icons" onclick="contactDropdown()">  <i class="fas fa-ellipsis-v dropbtn"></i></li>
+            <a href="index.html" tabindex="1"> <img class="hide-desktop h1-mobile h1-tablet" src="img/logo/templify-test.png" alt="Logo Templify"> </a>
+            <button class="hide-desktop navbar-icons dropbtn" onclick="contactDropdown()" tabindex="3">  <i class="fas fa-ellipsis-v dropbtn"></i></button>
         </div>
-        <ul class="side-nav-smaller-dev hide-mobile hide-desktop dropdown-content-sidebar" id="myDropdownSidebar">
-            <div class="flex-span">
-                <span style="padding-left: 5%;"><h2 style="text-align: center; font-size: 2em; margin-top: 0.5em;">Choose category</h2></span>
-                <span><i class="fas fa-times close" onclick="removeSide()"></i></span>
+        <div id="myDropdownSidebar" class="side-nav-smaller-dev hide-mobile hide-desktop dropdown-content-sidebar">
+            <div class="flex-span hide-desktop border-bottom">
+                <span style="padding-left: 5%; margin-top: 1em; margin-bottom: 1em; text-align: center; font-size: 1.5em; font-weight: bold;">Choose category</span>
+                <button onclick="removeSide()"><i class="fas fa-times close" ></i></button>
             </div>
 
-            <li class="items"><a class="black-a" href="#"> <span>Job application</span> <span><i class="fas fa-caret-right"></i></span></a></li>
-            <li class="items"><a class="black-a" href="#">School Essay</a></li>
-            <li class="items"><a class="black-a" href="#">HTML/CSS</a></li>
-            <li class="items"><a class="black-a" href="#">JavaScript</a></li>
-            <li class="items"><a class="black-a" href="#">Python</a></li>
-            <li class="items"><a class="black-a" href="#">Java</a></li>
-            <li class="items"><a class="black-a" href="#">Websites</a></li>
-            <li class="items"><a class="black-a" href="#">Posters</a></li>
-            <li class="items"><a class="black-a" href="#">Banners</a></li>
-            <li class="items"><a class="black-a" href="#">Logos</a></li>
-            <li class="items"><a class="black-a" href="#">Presentations</a></li>
-        </ul>
-        <ul class="ul-nav hide-mobile dropdown-content" role="navigation" id="myDropdownContact">
-            <li class="facebook__brand hide-mobile"><a href="index.html"><img class=" h1-mobile h1-tablet logo" src="img/logo/templify-test.png" alt="Logo Templify"> </a></li>
-            <li class="disabled"><a href="#">Create Template</a></li>
+            <ul id="mobileMenu">
+
+            </ul>
+        </div>
+
+        <div class="ul-nav hide-mobile dropdown-content" id="myDropdownContact">
+            <li class="facebook__brand hide-mobile nohover"><a href="index.html" class="nohover"><img class=" h1-mobile h1-tablet logo" src="img/logo/templify-test.png" alt="Logo Templify"> </a></li>
+            <li class="disabled hide-mobile">Create Template</li>
             <li><a href="contact.html">Contact</a> </li>
             <li><a href="about.html">About</a></li>
             <li><a href="login.html">Login<i class="fas fa-sign-in-alt"></i></a></li>
-        </ul>
+        </div>
 
         <h1 class="hide-mobile" style="text-align: center; color: white" >Simplify with Templify</h1>
         <!--
@@ -59,11 +51,13 @@
                         </div>
         -->
         <div class="search">
-            <input type="text" class="search-input" placeholder="Search among 4,124 templates"> <i class="fas fa-search"></i>
+            <form class="search-form">
+                <input type="text" class="search-input" placeholder="Search among 4,124 templates" name="search" id="search"> <button class="search-btn"><i class="fas fa-search"></i></button>
+            </form>
         </div> <!-- /search -->
         <div class="div-filter-seach">
             <ul class="filter-search">
-                <li class="li-filter-search"><a href="#"> Filter <i class="fas fa-caret-down"></a></i>
+                <li class="li-filter-search"><a href="#"> Filter <i class="fas fa-caret-down"></i></a>
 
                 </li>
             </ul> <!-- /ul: filter-search -->
