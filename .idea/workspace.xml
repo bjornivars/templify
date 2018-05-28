@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c921c527-e001-4e7e-ab4e-0f76e15e86cd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
-      <change beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/product.html" afterPath="$PROJECT_DIR$/product.html" />
       <change beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
-      <change beforePath="$PROJECT_DIR$/success.html" afterPath="$PROJECT_DIR$/success.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,8 +35,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="316">
+              <caret line="1677" column="7" lean-forward="false" selection-start-line="1677" selection-start-column="7" selection-end-line="1677" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -49,8 +45,8 @@
       <file leaf-file-name="script-index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script-index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1365">
-              <caret line="91" column="40" lean-forward="false" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+            <state relative-caret-position="430">
+              <caret line="81" column="50" lean-forward="true" selection-start-line="81" selection-start-column="50" selection-end-line="81" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -59,12 +55,13 @@
       <file leaf-file-name="product.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/product.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="63" column="7" lean-forward="false" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+            <state relative-caret-position="129">
+              <caret line="210" column="23" lean-forward="false" selection-start-line="210" selection-start-column="23" selection-end-line="210" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#9974#9981#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,8 +119,8 @@
       <file leaf-file-name="script-product.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script-product.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="67" lean-forward="false" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+            <state relative-caret-position="558">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -152,9 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bread</find>
-      <find>text-info-contact-about-login</find>
-      <find>flex</find>
       <find>id=&quot;myDropdownSide</find>
       <find>logoim</find>
       <find>body</find>
@@ -165,7 +159,6 @@
       <find>span</find>
       <find>#fff</find>
       <find>.spa</find>
-      <find>.items1</find>
       <find>.width</find>
       <find>header</find>
       <find>box-s</find>
@@ -176,12 +169,16 @@
       <find>t</find>
       <find>img</find>
       <find>madeby-span</find>
-      <find>.navbar</find>
       <find>img-mo</find>
       <find>.drop</find>
       <find>.dropdown</find>
-      <find>.dropbtn</find>
       <find>.navbar-icon</find>
+      <find>.dropbtn</find>
+      <find>.dropbtn-side</find>
+      <find>.navbar</find>
+      <find>.items1</find>
+      <find>.items</find>
+      <find>.flex-spa</find>
     </findStrings>
     <replaceStrings>
       <replace>thumbnail</replace>
@@ -241,15 +238,15 @@
         <option value="$PROJECT_DIR$/testing/flex-index.html" />
         <option value="$PROJECT_DIR$/testing/flex-style.css" />
         <option value="$PROJECT_DIR$/validate-form.js" />
-        <option value="$PROJECT_DIR$/script-product.js" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/script-index.js" />
         <option value="$PROJECT_DIR$/dropdown-menus.js" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/success.html" />
+        <option value="$PROJECT_DIR$/script-product.js" />
+        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/product.html" />
       </list>
     </option>
@@ -261,9 +258,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2534" />
-    <option name="y" value="-157" />
-    <option name="width" value="852" />
+    <option name="x" value="1733" />
+    <option name="y" value="-40" />
+    <option name="width" value="1759" />
     <option name="height" value="808" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -376,7 +373,7 @@
       <workItem from="1527185735867" duration="8867000" />
       <workItem from="1527197880347" duration="6603000" />
       <workItem from="1527331174234" duration="12148000" />
-      <workItem from="1527500626789" duration="7215000" />
+      <workItem from="1527500626789" duration="9367000" />
     </task>
     <task id="LOCAL-00001" summary="Changed footer on all sites">
       <created>1527185794373</created>
@@ -420,16 +417,24 @@
       <option name="project" value="LOCAL" />
       <updated>1527338115446</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&quot;skip to content&quot; (skips header) on all sites (WCAG)">
+      <created>1527515035361</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1527515035362</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206395000" />
+    <option name="totallyTimeSpent" value="208547000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2534" y="-157" width="852" height="808" extended-state="0" />
+    <frame x="1733" y="-40" width="1759" height="808" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2202166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.045454547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20431328" sideWeight="0.505059" order="7" side_tool="true" content_ui="tabs" />
@@ -506,7 +511,8 @@
     <MESSAGE value="sidebar filtering works. dynamic content on product page" />
     <MESSAGE value="some style" />
     <MESSAGE value="style on index (desktop)" />
-    <option name="LAST_COMMIT_MESSAGE" value="style on index (desktop)" />
+    <MESSAGE value="&quot;skip to content&quot; (skips header) on all sites (WCAG)" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;skip to content&quot; (skips header) on all sites (WCAG)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -580,34 +586,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script-product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="67" lean-forward="false" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/script-index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" column="40" lean-forward="false" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dropdown-menus.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -665,14 +647,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/script-index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="81" column="50" lean-forward="true" selection-start-line="81" selection-start-column="50" selection-end-line="81" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script-product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="1677" column="7" lean-forward="false" selection-start-line="1677" selection-start-column="7" selection-end-line="1677" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="63" column="7" lean-forward="false" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+        <state relative-caret-position="129">
+          <caret line="210" column="23" lean-forward="false" selection-start-line="210" selection-start-column="23" selection-end-line="210" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#9974#9981#1" expanded="true" />
           </folding>
         </state>
       </provider>
