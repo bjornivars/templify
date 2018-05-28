@@ -20,7 +20,10 @@ a.skip:hover {
     color: red;
 }
 
-
+button {
+    -webkit-appearance: none;
+    border: none;
+}
 
 /* @@@@@@@@@@@@@@@@@@@@@@ ALL DEVICES QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 
@@ -957,6 +960,8 @@ ul.breadcrumb li a:hover {
         margin-right: 1em;
         color: white;
         font-size: 2em;
+        background-color: transparent;
+        border: none;
     }
 
     .fa-caret-right{
@@ -1068,6 +1073,8 @@ ul.breadcrumb li a:hover {
         color: white;
         border: none;
         cursor: pointer;
+        -webkit-appearance: none;
+        border-radius: 0;
 
     }
 
@@ -1116,7 +1123,8 @@ ul.breadcrumb li a:hover {
     .dropbtn-sidebar {
         background-color: transparent;
         color: white;
-
+        -webkit-appearance: none;
+        border-radius: 0;
         border: none;
         cursor: pointer;
 
@@ -1493,7 +1501,8 @@ ul.breadcrumb li a:hover {
     .dropbtn {
         background-color: transparent;
         color: white;
-
+        -webkit-appearance: none;
+        border-radius: 0;
         border: none;
         cursor: pointer;
         margin-top: 5px;;
@@ -1546,6 +1555,8 @@ ul.breadcrumb li a:hover {
         color: white;
         border: none;
         cursor: pointer;
+        -webkit-appearance: none;
+        border-radius: 0;
 
     }
 
@@ -1611,6 +1622,7 @@ ul.breadcrumb li a:hover {
     .fa-times{
         font-size: 2.25em;
     }
+
 
 }
 

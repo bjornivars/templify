@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <script src="dropdown-menus.js" defer></script>
     <script src="validate-form.js" defer></script>
+    <script src="buildSidebar.js" defer></script>
+
 
 </head>
 <body>
@@ -16,10 +18,10 @@
 <div class="header">
     <div class="nav dropdown">
         <div class="nav-bars-div">
-            <button class="hide-desktop navbar-icons" onclick="sidebarDropdown()" tabindex="2"> <i class="fas fa-bars dropbtn-sidebar"></i></button>
+            <button class="hide-desktop navbar-icons" onclick="sidebarDropdown()" tabindex="2" type="button"> <i class="fas fa-bars dropbtn-sidebar"></i></button>
 
             <a href="index.html" tabindex="1"> <img class="hide-desktop h1-mobile h1-tablet" src="img/logo/templify-test.png" alt="Logo Templify"> </a>
-            <button class="hide-desktop navbar-icons dropbtn" onclick="contactDropdown()" tabindex="3">  <i class="fas fa-ellipsis-v dropbtn"></i></button>
+            <button class="hide-desktop navbar-icons dropbtn" onclick="contactDropdown()" tabindex="3" type="button">  <i class="fas fa-ellipsis-v dropbtn"></i></button>
         </div>
         <div id="myDropdownSidebar" class="side-nav-smaller-dev hide-mobile hide-desktop dropdown-content-sidebar">
             <div class="flex-span hide-desktop border-bottom">
