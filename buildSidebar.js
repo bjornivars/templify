@@ -8,7 +8,7 @@ function buildSidebar(){
 
         })
         .then(function(myCats) {
-            //  console.log(myCats);
+              console.log(myCats);
 
             for (var cat of myCats){
                 //   console.log(cat.name);

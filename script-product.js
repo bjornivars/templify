@@ -35,6 +35,9 @@ var id = url.searchParams.get("id"); // returns the first value associated to th
             document.getElementById("keyword2").innerText = "- " + template.keyword2;
             document.getElementById("author").innerText = "Made by " + template.author;
             document.getElementById("description").innerText = template.description;
+            document.getElementById("review1").innerText = template.review1;
+            document.getElementById("review2").innerText = template.review2;
+            document.getElementById("review3").innerText = template.review3;
             document.getElementById("downloadBtn").setAttribute( "onClick", "location.href='"+template.downloadurl+"'"  )
             var img = document.getElementById("logoImg");
             if (template.imgurlbig === null){
