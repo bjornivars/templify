@@ -14,13 +14,12 @@
 </head>
 <body>
 <a href="#content" class="skip">Skip to content</a>
-
 <div class="header">
     <div class="nav dropdown">
         <div class="nav-bars-div">
             <button class="hide-desktop navbar-icons" onclick="sidebarDropdown()" tabindex="2" type="button"> <i class="fas fa-bars dropbtn-sidebar"></i></button>
 
-            <a href="index.html" tabindex="1"> <img class="hide-desktop h1-mobile h1-tablet" src="img/logo/templify-test.png" alt="Logo Templify"> </a>
+            <a href="index.html" tabindex="1" class="nohover"> <img class="hide-desktop h1-mobile h1-tablet" src="img/logo/templify-test.png" alt="Logo Templify"> </a>
             <button class="hide-desktop navbar-icons dropbtn" onclick="contactDropdown()" tabindex="3" type="button">  <i class="fas fa-ellipsis-v dropbtn"></i></button>
         </div>
         <div id="myDropdownSidebar" class="side-nav-smaller-dev hide-mobile hide-desktop dropdown-content-sidebar">
@@ -34,13 +33,13 @@
             </ul>
         </div>
 
-        <div class="ul-nav hide-mobile dropdown-content" id="myDropdownContact">
+        <ul class="ul-nav hide-mobile dropdown-content" id="myDropdownContact">
             <li class="facebook__brand hide-mobile nohover"><a href="index.html" class="nohover"><img class=" h1-mobile h1-tablet logo" src="img/logo/templify-test.png" alt="Logo Templify"> </a></li>
             <li class="disabled hide-mobile">Create Template</li>
-            <li><a href="contact.html" >Contact</a> </li>
+            <li><a href="contact.html">Contact</a> </li>
             <li><a href="about.html" class="active">About</a></li>
             <li><a href="login.html">Login<i class="fas fa-sign-in-alt"></i></a></li>
-        </div>
+        </ul>
 
         <h1 class="hide-mobile" style="text-align: center; color: white" >Simplify with Templify</h1>
         <!--
@@ -54,8 +53,8 @@
                         </div>
         -->
         <div class="search">
-            <form class="search-form">
-                <input type="text" class="search-input" placeholder="Search among 4,124 templates" name="search" id="search" > <button class="search-btn"><i class="fas fa-search"></i></button>
+            <form class="search-form" action="index.html">
+                <input type="text" class="search-input" placeholder="Search among 4,124 templates" name="search" id="search"> <button class="search-btn"><i class="fas fa-search"></i></button>
             </form>
         </div> <!-- /search -->
         <!--
@@ -64,11 +63,12 @@
                 <li class="li-filter-search"><a href="#"> Filter <i class="fas fa-caret-down"></i></a>
 
                 </li>
-            </ul> <!-- /ul: filter-search -->
-    </div>
+            </ul>  -->
+    </div> <!-- /nav -->
 
-</div> <!-- /nav -->
+
 </div> <!-- /header -->
+
 
 <div class="side-wrapper col-m-15 hide-mobile hide-desktop">
     <div class="side-nav hide-mobile" id="myDropdownSidebar1">
