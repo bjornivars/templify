@@ -128,7 +128,7 @@ fetch("https://www.templify.no/api/api.php/template")
         if (count === 0){
             console.log("Nada Templates");
             var h1 = document.createElement("h1");
-            var h1TextNode = document.createTextNode("No results " + search);
+            var h1TextNode = document.createTextNode("No results found");
             h1.appendChild(h1TextNode);
             myTemplates.appendChild(h1);
             // If there are no cards that matches search, write "No results for" and search word

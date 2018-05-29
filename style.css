@@ -52,7 +52,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
-
+.footer-line{
+    border-right: 1px solid black;
+}
 h2{
     font-size: 25px;
 }
@@ -192,10 +194,11 @@ ul.breadcrumb li a:hover {
 .footer {
     float: left;
     background-color: rgba(52,141,165, 0.3);
-;
     max-height: 15em;
     min-height: 10em;
     text-align: center;
+    padding-bottom: 3em;
+    padding-top: 1.5em;
 
 }
 
@@ -356,17 +359,17 @@ ul.breadcrumb li a:hover {
 
 
     .side-wrapper {
-        background-color: transparent;
+        background-color: white;
         float: left;
         margin: 2%;
         margin-top: 0;
+        box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
 
     }
 
 
 
     .side-nav{
-        border-right: 1px solid #ccc;
 
         padding-bottom: 2em;
     }
@@ -479,6 +482,7 @@ ul.breadcrumb li a:hover {
     .facebook__brand {
         margin-right: auto;
         height: auto;
+        margin-left: 1.2em;
     }
 
     .ul-nav {
@@ -489,11 +493,13 @@ ul.breadcrumb li a:hover {
         background: transparent;
         color: white;
         font-size: 1em;
-        padding-top: 1em;
+        padding-top: 2.5em;
+        padding-bottom: 2.5em;
     }
 
     .facebook__brand i {
         font-size: 1.5em;
+
     }
 
     .ul-nav li:not(:first-child) {
@@ -610,6 +616,7 @@ ul.breadcrumb li a:hover {
     .container-right-product{
         width: 50%;
         border: 1px solid black;
+        border-left: none;
         border-radius: 0px 7px 7px 0px;
     }
 
@@ -1037,6 +1044,7 @@ ul.breadcrumb li a:hover {
         width: 50%;
         border: 1px solid black;
         border-radius: 0px 7px 7px 0px;
+        border-left: none;
     }
 
     .text-info2-product{
@@ -1260,7 +1268,7 @@ ul.breadcrumb li a:hover {
     }
     /* ALL SITES MOBILE */
     .header{
-        margin-bottom: 1em;
+        padding-bottom: 1em;
     }
 
     .hide-mobile{
@@ -1294,7 +1302,7 @@ ul.breadcrumb li a:hover {
     }
     .navbar-icons{
         display: inline-flex;
-
+        background-color: transparent;
         color: white;
         font-size: 1.5em;
     }
@@ -1351,7 +1359,7 @@ ul.breadcrumb li a:hover {
         display: none;
     }
     .items1{
-        height: 7em;
+        height: 6em;
         padding: 2px;
         padding: 2px;
         float: left;
@@ -1374,7 +1382,7 @@ ul.breadcrumb li a:hover {
 
     .button{
         background-color: #2ABC72;
-        padding: 0.5em;
+        padding: 1em;
         color: white;
         width: 100%;
         border: 1px solid transparent;
@@ -1631,7 +1639,7 @@ ul.breadcrumb li a:hover {
     .show {display:block;}
 
     .madeby-span{
-
+        color: #6F6F6F;
         font-size: 14px;
     }
 
