@@ -117,6 +117,7 @@ a:hover {
 
 .fa-star{
     color: #F5E742;
+    margin-left: 0.4em;
 }
 
 .items1{
@@ -238,12 +239,12 @@ ul.breadcrumb li a:hover {
 
 
 /* @@@@@@@@@@@@@@@@@@@@@@ DESKTOP QUERY @@@@@@@@@@@@@@@@@@@@@@ */
-@media screen and (min-width: 1250px) {
+/* @media screen and (min-width: 1290px) {
     .col-lg-8 {
         width: 80%;
 
     }
-}
+} */
 
 @media screen and (min-width: 789px) {
 

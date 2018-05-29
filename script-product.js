@@ -37,10 +37,10 @@ var id = url.searchParams.get("id"); // returns the first value associated to th
             document.getElementById("description").innerText = template.description;
             document.getElementById("downloadBtn").setAttribute( "onClick", "location.href='"+template.downloadurl+"'"  )
             var img = document.getElementById("logoImg");
-            if (template.imgurl === null){
+            if (template.imgurlbig === null){
                 img.src = "https://www.happyceliac.com/wp-content/uploads/2018/02/placeholder-image.png";
             } else {
-                img.src = template.imgurl; // Makes variable img.src = place.imageUrl. The url of the image depends on which place displaye
+                img.src = template.imgurlbig; // Makes variable img.src = place.imageUrl. The url of the image depends on which place displaye
             }
             // Please get the following keys: imageUrl, name, text, rarity and colors. Display their values.
         }) // Fetch .then end
