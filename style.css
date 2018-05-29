@@ -314,7 +314,9 @@ ul.breadcrumb li a:hover {
         float: left;
     }
 
-
+    .header{
+        padding-bottom: 2em;
+    }
 
     .float-left{
         float: left;
@@ -712,6 +714,10 @@ ul.breadcrumb li a:hover {
     body{
         font-size: 1em;
         line-height: 1.25em;
+    }
+
+    .header{
+        padding-bottom: 2em;
     }
 
     .text-info-2-contact-about{
