@@ -53,7 +53,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 h2{
     font-size: 25px;
 }
@@ -87,6 +86,14 @@ a {
 
 
 a:hover {
+    border-bottom: 1px solid white;
+}
+
+.nohover a:hover{
+    border-bottom: none;
+}
+
+.active{
     border-bottom: 1px solid white;
 }
 
