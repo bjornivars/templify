@@ -53,8 +53,8 @@
                             </div>
                         </div>
         -->
-        <div class="search" >
-            <form class="search-form" action="index.html">
+        <div class="search">
+            <form class="search-form">
                 <input type="text" class="search-input" placeholder="Search among 4,124 templates" name="search" id="search" > <button class="search-btn"><i class="fas fa-search"></i></button>
             </form>
         </div> <!-- /search -->
@@ -114,12 +114,32 @@
                 <div id="map" style="width:90%;height:300px;background:yellow; margin: auto"></div>
 
                 <script>
+
                     function initMap() {
+                        var myLatLng = {lat: 59.410350, lng: 9.068493};
+
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            zoom: 15,
+                            center: myLatLng,
+                            mapTypeId: 'hybrid'
+
+                        });
+
+                        var marker = new google.maps.Marker({
+                            position: myLatLng,
+                            map: map,
+                            title: 'Hello World!'
+                        });
+                    }
+
+
+                   /* function initMap() {
                         var myLatLng = {lat: 59.410350, lng: 9.068493};
 
                         var map = new google.maps.Map(document.getElementById('map'), {
                             zoom: 14,
                             center: myLatLng
+
                         });
 
                         var marker = new google.maps.Marker({
@@ -127,7 +147,7 @@
                             map: map,
                             title: 'Siem Software'
                         });
-                    }
+                    }*/
                 </script>
 
             </div>
