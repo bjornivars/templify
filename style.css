@@ -1361,9 +1361,8 @@ ul.breadcrumb li a:hover {
     .items1{
         height: 6em;
         padding: 2px;
-        padding: 2px;
         float: left;
-        margin: 5%;
+        margin: 2% 5% 2% 5%;
         box-shadow:  0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
 
     }
@@ -1469,11 +1468,15 @@ ul.breadcrumb li a:hover {
         border: 1px solid rgba(0, 0, 0, 0.7);
         border-radius: 4px;
         margin-top: 2em;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .container-right-product{
         border: 1px solid rgba(0, 0, 0, 0.7);
         border-radius: 4px;
         margin-top: 2em;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .bg{
@@ -1489,6 +1492,11 @@ ul.breadcrumb li a:hover {
 
     .lead{
         margin-top: 0;
+    }
+
+    .related-text{
+        margin-left: 5%;
+        margin-top: 10%;
     }
     /* /PRODUCT */
 
