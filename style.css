@@ -1,3 +1,8 @@
+.margin-auto{
+    margin: auto;
+
+}
+
 
 .skip {
     position: absolute;
@@ -44,6 +49,10 @@ body {
      margin: 0;
 }
 .header{
+    background: linear-gradient(to right, #26d35a , #424aed);
+}
+
+.header-login{
     background: linear-gradient(to right, #26d35a , #424aed);
 }
 
@@ -424,6 +433,8 @@ ul.breadcrumb li a:hover {
 
 
     /* ALL */
+
+
     .flex-wrapper{
         display: flex;
         border: none;
@@ -510,6 +521,13 @@ ul.breadcrumb li a:hover {
         background: linear-gradient(to right, #26d35a , #424aed);
         max-height: 10em;
         min-height: 15em;
+        margin-bottom: 1em;
+    }
+
+    .header-login {
+        background: linear-gradient(to right, #26d35a , #424aed);
+        max-height: 10em;
+        min-height: 6em;
         margin-bottom: 1em;
     }
 
@@ -781,7 +799,7 @@ ul.breadcrumb li a:hover {
     .bg{
         background-color: #F2F2F2;
         padding-bottom: 3em;
-        width: 90%;
+        width: 100%;
     }
 
     .lead{
@@ -807,6 +825,7 @@ ul.breadcrumb li a:hover {
     .flex-wrapper{
         display: flex;
         border: none;
+
     }
 
     .justify-center{
@@ -910,7 +929,7 @@ ul.breadcrumb li a:hover {
     .container-right-contact-success{
         display: flex;
         justify-content: center;
-        width: 45%;
+        width: 55%;
         border: 1px solid transparent;
         border-radius: 0px 7px 7px 0px;
         background-color: #F2F2F2;
@@ -1055,7 +1074,7 @@ ul.breadcrumb li a:hover {
 
     .img-mobile{
         display: flex;
-        max-width: 100%;
+        width: 100%;
         height: 7em;
         margin: 0 auto;
 
@@ -1198,6 +1217,10 @@ ul.breadcrumb li a:hover {
     /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
     .show {display:block;}
 
+    .margin5{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 
 
 
@@ -1289,6 +1312,11 @@ ul.breadcrumb li a:hover {
     .h2-mobile{
         font-size: medium;
         margin: 0;
+    }
+
+    .margin5{
+        margin-right: 5%;
+        margin-left: 5%;
     }
 
     .logoimg{
@@ -1401,7 +1429,7 @@ ul.breadcrumb li a:hover {
     .container-right-contact-success{
         display: flex;
         justify-content: center;
-        width: 100%;
+        width: 80%;
         border: 1px solid transparent;
         border-radius: 0px 7px 7px 0px;
         background-color: #F2F2F2;
@@ -1441,7 +1469,7 @@ ul.breadcrumb li a:hover {
 
     .img-mobile{
         display: flex;
-        max-width: 100%;
+        width: 100%;
         height: 5em;
         margin: 0 auto;
 

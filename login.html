@@ -6,24 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <script src="dropdown-menus.js" defer></script>
+    <script src="buildSidebar.js" defer></script>
 
 </head>
 <body>
 
-    <div class="header" style="min-height: 5em">
-        <div class="nav">
-            <div class="nav-bars-div login-nav">
-                <a href="index.html"><img class="" src="img/logo/templify-test.png"  style="text-align: center; padding-top: 0.5em; margin-top: 0" alt="Logo Templify"></a>
+<div class="header-login">
+    <div class="nav dropdown">
+        <div class="nav-bars-div">
+            <button class="hide-desktop navbar-icons" onclick="sidebarDropdown()" tabindex="2" type="button"> <i class="fas fa-bars dropbtn-sidebar"></i></button>
+
+            <a href="index.html" tabindex="1" class="nohover"> <img class="hide-desktop h1-mobile h1-tablet" src="img/logo/templify-test.png" alt="Logo Templify"> </a>
+            <button class="hide-desktop navbar-icons dropbtn" onclick="contactDropdown()" tabindex="3" type="button">  <i class="fas fa-ellipsis-v dropbtn"></i></button>
+        </div>
+        <div id="myDropdownSidebar" class="side-nav-smaller-dev hide-mobile hide-desktop dropdown-content-sidebar">
+            <div class="flex-span hide-desktop border-bottom">
+                <span style="padding-left: 5%; margin-top: 1em; margin-bottom: 1em; text-align: center; font-size: 1.2em; font-weight: bold;">Choose category</span>
+                <button onclick="removeSide()"><i class="fas fa-times close" ></i></button>
             </div>
 
-        </div> <!-- /nav -->
-    </div> <!-- /header -->
+            <ul id="mobileMenu">
+
+            </ul>
+        </div>
+
+        <ul class="ul-nav hide-mobile dropdown-content" id="myDropdownContact">
+            <li class="facebook__brand hide-mobile nohover"><a href="index.html" class="nohover"><img class=" h1-mobile h1-tablet logo" src="img/logo/templify-test.png" alt="Logo Templify"> </a></li>
+            <li class="disabled hide-mobile">Create Template</li>
+            <li><a href="contact.html">Contact</a> </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Login<i class="fas fa-sign-in-alt"></i></a></li>
+        </ul>
+
+        <!--
+        <div class="div-filter-seach">
+            <ul class="filter-search">
+                <li class="li-filter-search"><a href="#"> Filter <i class="fas fa-caret-down"></i></a>
+
+                </li>
+            </ul>  -->
+    </div> <!-- /nav -->
 
 
+</div> <!-- /header -->
 
-    <div class="contact-wrapper">
-        <div class="col-m-7 margin-auto flex-wrapper justify-center review-row">
-            <div class="col-m-7 container-right-contact-success">
+<div class="side-wrapper col-m-15 hide-mobile hide-desktop">
+    <div class="side-nav hide-mobile" id="myDropdownSidebar1">
+        <h2 style="text-align: center">Choose category</h2>
+        <ul id="sidebarMenu">
+
+        </ul>
+    </div>
+</div>
+
+    <div class="contact-wrapper bg">
+        <div class="col-m-7 margin-auto flex-wrapper justify-center review-row margin-auto">
+            <div class="col-m-7 container-right-contact-success margin-auto">
                 <div class="col-m-9 col-t-9 col-sm-9 text-info-2-contact-about">
                     <form class="col-t-10 col-sm-10">
                         <h2 style="text-align: center;"> Login </h2>
