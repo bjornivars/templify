@@ -115,8 +115,8 @@ a:hover {
 }
 
 .check-large{
-    font-size: 10em;
-    color: #2ABC72;
+    display: flex;
+    width: 50%;
 }
 
 .side-nav {
