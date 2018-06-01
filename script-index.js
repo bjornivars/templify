@@ -121,6 +121,7 @@ fetch("https://www.templify.no/api/api.php/template")
                     showTemplate(template);
                 }
             }
+
         } // for-loop end
 
         var count = document.getElementById("templates").childElementCount; // Counts how many child objects there is

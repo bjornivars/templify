@@ -17,15 +17,15 @@
 <div class="header">
     <div class="nav dropdown">
         <div class="nav-bars-div">
-            <button class="hide-desktop navbar-icons" onclick="sidebarDropdown()" tabindex="2" type="button"> <i class="fas fa-bars dropbtn-sidebar"></i></button>
+            <button class="hide-desktop navbar-icons" onclick="sidebarDropdown()" tabindex="2" type="button" name="Sidebar dropdown button"> <i class="fas fa-bars dropbtn-sidebar"></i></button>
 
             <a href="index.html" tabindex="1" class="nohover"> <img class="hide-desktop h1-mobile h1-tablet" src="img/logo/templify-test.png" alt="Logo Templify"> </a>
-            <button class="hide-desktop navbar-icons dropbtn" onclick="contactDropdown()" tabindex="3" type="button">  <i class="fas fa-ellipsis-v dropbtn"></i></button>
+            <button class="hide-desktop navbar-icons dropbtn" onclick="contactDropdown()" tabindex="3" type="button" name="Contact dropdown button">  <i class="fas fa-ellipsis-v dropbtn"></i></button>
         </div>
         <div id="myDropdownSidebar" class="side-nav-smaller-dev hide-mobile hide-desktop dropdown-content-sidebar">
             <div class="flex-span hide-desktop border-bottom">
                 <span style="padding-left: 5%; margin-top: 1em; margin-bottom: 1em; text-align: center; font-size: 1.5em; font-weight: bold;">Choose category</span>
-                <button onclick="removeSide()"><i class="fas fa-times close" ></i></button>
+                <button onclick="removeSide()" name="remove sidebar button"><i class="fas fa-times close" ></i></button>
             </div>
 
             <ul id="mobileMenu">
@@ -54,7 +54,7 @@
         -->
         <div class="search">
             <form class="search-form" action="index.html">
-                <input type="text" class="search-input" placeholder="Search among 4,124 templates" name="search" id="search"> <button class="search-btn"><i class="fas fa-search"></i></button>
+                <input type="text" class="search-input" placeholder="Search among 4,124 templates" name="search" id="search"> <button class="search-btn" name="search button"><i class="fas fa-search"></i></button>
             </form>
         </div> <!-- /search -->
         <!--
@@ -186,6 +186,8 @@
     </div>
 
 </div>
+<div class="col-m-10 margin-auto flex justify-center" style="background-color: rgba(52,141,165, 0.3);"><i class="far fa-copyright"></i><span style="margin-left: 1em"> 2018 TEMPLIFY.COM ALL RIGHTS RESERVED</span>
+
 
 
 
