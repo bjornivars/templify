@@ -164,10 +164,10 @@ a:hover {
 
 /* Style the list */
 ul.breadcrumb {
-    padding: 10px 10px;
+    padding: 10px 0px;
     list-style: none;
     background-color: transparent;
-    margin-left: 5%;
+
 }
 
 /* Display list items side by side */
@@ -414,6 +414,10 @@ ul.breadcrumb li a:hover {
         width: 70%;
         border: none;
         margin: 0 auto;
+    }
+
+    .related-text{
+        margin-top: 3em;
     }
 
     .more-reviews{
@@ -1224,7 +1228,10 @@ ul.breadcrumb li a:hover {
         margin-left: 5%;
     }
 
-
+    ul.breadcrumb{
+        margin-left: 5%;
+        padding-left: 0;
+    }
 
 } /* /Tablet view */
 
@@ -1396,6 +1403,10 @@ ul.breadcrumb li a:hover {
 
     }
 
+    ul.breadcrumb{
+        margin-left: 5%;
+        padding-left: 0;
+    }
 
 
     h3{
