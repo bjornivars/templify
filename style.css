@@ -747,6 +747,10 @@ ul.breadcrumb li a:hover {
         line-height: 1.25em;
     }
 
+    h2{
+        font-size: 20px;
+    }
+
     .header{
         padding-bottom: 2em;
     }
@@ -1285,6 +1289,10 @@ ul.breadcrumb li a:hover {
 
     p{
         font-size: 14px;
+    }
+
+    h2{
+        font-size: 18px;
     }
 
 
