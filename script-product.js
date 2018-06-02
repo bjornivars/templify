@@ -99,7 +99,7 @@ function showTemplate(template){
     box.classList.add("float-left");
     box.classList.add("col-m-24"); // Adds class "col-m-24" to box div
     box.classList.add("col-t-3");
-    box.classList.add("col-sm-9");
+    box.classList.add("col-sm-10");
     box.classList.add("items1");
 
 

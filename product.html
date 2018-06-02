@@ -17,19 +17,18 @@
 
 <a href="#content" class="skip">Skip to content</a>
 
-
 <div class="header">
     <div class="nav dropdown">
         <div class="nav-bars-div">
-            <button class="hide-desktop navbar-icons" onclick="sidebarDropdown()" tabindex="2" type="button" name="open sidebar button"> <i class="fas fa-bars dropbtn-sidebar"></i></button>
+            <button class="hide-desktop navbar-icons" onclick="sidebarDropdown()" tabindex="2" type="button" name="open sidebar button" aria-label="open sidebar button"> <i class="fas fa-bars dropbtn-sidebar"></i></button>
 
             <a href="index.html" tabindex="1" class="nohover"> <img class="hide-desktop h1-mobile h1-tablet" src="img/logo/templify-test.png" alt="Logo Templify"> </a>
-            <button class="hide-desktop navbar-icons dropbtn" onclick="contactDropdown()" tabindex="3" type="button" name="Contact dropdown">  <i class="fas fa-ellipsis-v dropbtn"></i></button>
+            <button class="hide-desktop navbar-icons dropbtn" onclick="contactDropdown()" tabindex="3" type="button" name="Contact dropdown" aria-label="Contact dropdown">  <i class="fas fa-ellipsis-v dropbtn"></i></button>
         </div>
         <div id="myDropdownSidebar" class="side-nav-smaller-dev hide-mobile hide-desktop dropdown-content-sidebar">
             <div class="flex-span hide-desktop border-bottom">
-                <span style="padding-left: 5%; margin-top: 1em; margin-bottom: 1em; text-align: center; font-size: 1.5em; font-weight: bold;">Choose category</span>
-                <button onclick="removeSide()" name="remove sidebar"><i class="fas fa-times close" ></i></button>
+                <span style="padding-left: 5%; margin-top: 1em; margin-bottom: 1em; text-align: center; font-size: 1.2em; font-weight: bold;">Choose category</span>
+                <button onclick="removeSide()" name="remove sidebar button" aria-label="remove sidebar button"><i class="fas fa-times close" ></i></button>
             </div>
 
             <ul id="mobileMenu">
@@ -45,7 +44,7 @@
             <li><a href="login.html">Login<i class="fas fa-sign-in-alt"></i></a></li>
         </ul>
 
-        <h1 class="hide-mobile" style="text-align: center; color: white" >Simplify with Templify</h1>
+        <h1 class="hide-mobile" style="text-align: center; color: white" >Find templates for your project </h1>
         <!--
                         <div class="dropdown hide-desktop">
                             <li class="hide-desktop"> <button onclick="myFunction()" class="dropbtn"> <i class="fas fa-ellipsis-v"></i></button></li>
@@ -58,7 +57,7 @@
         -->
         <div class="search">
             <form class="search-form" action="index.html">
-                <input type="text" class="search-input" placeholder="Search among 4,124 templates" name="search" id="search"> <button class="search-btn" name="search button"><i class="fas fa-search"></i></button>
+                <input type="text" class="search-input" placeholder="Search among 4,124 templates" name="search" id="search"> <button class="search-btn" name="search button" aria-label="search button"><i class="fas fa-search"></i></button>
             </form>
         </div> <!-- /search -->
         <!--
@@ -72,7 +71,6 @@
 
 
 </div> <!-- /header -->
-
 
 
 
@@ -174,9 +172,10 @@
 
         </ul>
     </div>
-    <div class="col-m-10 margin-auto flex justify-center" style="background-color: rgba(52,141,165, 0.3);"><i class="far fa-copyright"></i><span style="margin-left: 1em"> 2018 TEMPLIFY.COM ALL RIGHTS RESERVED</span>
+    <br>
 
 </div>
+
 
 <!-- The Modal -->
 
@@ -191,12 +190,6 @@
     <!-- Modal Caption (Image Text) -->
     <div id="caption"></div>
 </div>
-
-
-
-
-
-
 
 
 <script>

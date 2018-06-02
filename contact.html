@@ -19,15 +19,15 @@
 <div class="header">
     <div class="nav dropdown">
         <div class="nav-bars-div">
-            <button class="hide-desktop navbar-icons" onclick="sidebarDropdown()" tabindex="2" type="button" name="Sidebar dropdown button"> <i class="fas fa-bars dropbtn-sidebar"></i></button>
+            <button class="hide-desktop navbar-icons" onclick="sidebarDropdown()" tabindex="2" type="button" name="open sidebar button" aria-label="open sidebar button"> <i class="fas fa-bars dropbtn-sidebar"></i></button>
 
             <a href="index.html" tabindex="1" class="nohover"> <img class="hide-desktop h1-mobile h1-tablet" src="img/logo/templify-test.png" alt="Logo Templify"> </a>
-            <button class="hide-desktop navbar-icons dropbtn" onclick="contactDropdown()" tabindex="3" type="button" name="contact dropdown button">  <i class="fas fa-ellipsis-v dropbtn"></i></button>
+            <button class="hide-desktop navbar-icons dropbtn" onclick="contactDropdown()" tabindex="3" type="button" name="Contact dropdown" aria-label="Contact dropdown">  <i class="fas fa-ellipsis-v dropbtn"></i></button>
         </div>
         <div id="myDropdownSidebar" class="side-nav-smaller-dev hide-mobile hide-desktop dropdown-content-sidebar">
             <div class="flex-span hide-desktop border-bottom">
-                <span style="padding-left: 5%; margin-top: 1em; margin-bottom: 1em; text-align: center; font-size: 1.5em; font-weight: bold;">Choose category</span>
-                <button onclick="removeSide()" name="remove sidebar button"><i class="fas fa-times close"></i></button>
+                <span style="padding-left: 5%; margin-top: 1em; margin-bottom: 1em; text-align: center; font-size: 1.2em; font-weight: bold;">Choose category</span>
+                <button onclick="removeSide()" name="remove sidebar button" aria-label="remove sidebar button"><i class="fas fa-times close" ></i></button>
             </div>
 
             <ul id="mobileMenu">
@@ -38,12 +38,12 @@
         <ul class="ul-nav hide-mobile dropdown-content" id="myDropdownContact">
             <li class="facebook__brand hide-mobile nohover"><a href="index.html" class="nohover"><img class=" h1-mobile h1-tablet logo" src="img/logo/templify-test.png" alt="Logo Templify"> </a></li>
             <li class="disabled hide-mobile">Create Template</li>
-            <li><a href="contact.html" class="active">Contact</a> </li>
+            <li><a href="contact.html">Contact</a> </li>
             <li><a href="about.html">About</a></li>
             <li><a href="login.html">Login<i class="fas fa-sign-in-alt"></i></a></li>
         </ul>
 
-        <h1 class="hide-mobile" style="text-align: center; color: white" >Simplify with Templify</h1>
+        <h1 class="hide-mobile" style="text-align: center; color: white" >Find templates for your project </h1>
         <!--
                         <div class="dropdown hide-desktop">
                             <li class="hide-desktop"> <button onclick="myFunction()" class="dropbtn"> <i class="fas fa-ellipsis-v"></i></button></li>
@@ -56,7 +56,7 @@
         -->
         <div class="search">
             <form class="search-form" action="index.html">
-                <input type="text" class="search-input" placeholder="Search among 4,124 templates" name="search" id="search"> <button class="search-btn" name="search button"><i class="fas fa-search"></i></button>
+                <input type="text" class="search-input" placeholder="Search among 4,124 templates" name="search" id="search"> <button class="search-btn" name="search button" aria-label="search button"><i class="fas fa-search"></i></button>
             </form>
         </div> <!-- /search -->
         <!--
@@ -103,7 +103,7 @@
                     <h2>How may we help you?</h2>
                     <p> Please let us know what´s on your mind</p>
                     <p> We love all feedback, good or bad.</p>
-                    <img src="img/logo/templify-test-black.png" style="width: 50%; margin-top: 3em;" alt="Logo Templify">
+                    <img src="img/logo/templify-test-black.png" style="width: 50%; margin-top: 3em;" alt="Logo Templify" class="hide-mobile">
                 </div>
             </div>
             <div class="col-m-5 container-right-contact-success margin-auto">
@@ -113,26 +113,26 @@
                         <div class="form-group input-group">
 
 
-                                <input name="firstName" class="input-style" id="firstName" placeholder="Fornavn">
+                                <input name="firstName" class="input-style" id="firstName" placeholder="Fornavn" required>
                                 <span class="error" id="firstNameError"></span>
 
 
-                                <input name="lastName" class="input-style" id="lastName"  placeholder="Etternavn">
+                                <input name="lastName" class="input-style" id="lastName"  placeholder="Etternavn" required>
                                 <span class="error" id="lastNameError"></span>
 
 
 
-                                <input name="email" class="input-style" id="email" placeholder="E-post">
+                                <input name="email" class="input-style" id="email" placeholder="E-post" required>
                                 <span class="error" id="emailError"></span>
 
 
 
-                                <input name="subject" class="input-style" id="subject" placeholder="Subject">
+                                <input name="subject" class="input-style" id="subject" placeholder="Subject" required>
                                 <span class="error" id="subjectError"></span>
 
 
 
-                                <textarea name="msg" class="input-style" id="msg" placeholder="Message"></textarea>
+                                <textarea name="msg" class="input-style" id="msg" placeholder="Message" required></textarea>
                                 <span class="error" id="msgError"></span>
 
                             <br>
@@ -175,7 +175,6 @@
     </div>
 
 </div>
-<div class="col-m-10 margin-auto flex justify-center" style="background-color: rgba(52,141,165, 0.3);"><i class="far fa-copyright"></i><span style="margin-left: 1em"> 2018 TEMPLIFY.COM ALL RIGHTS RESERVED</span>
 
 
 

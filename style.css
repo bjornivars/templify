@@ -3,6 +3,9 @@
 
 }
 
+.justify-center{
+    justify-content: center;
+}
 
 .skip {
     position: absolute;
@@ -164,6 +167,7 @@ ul.breadcrumb {
     padding: 10px 10px;
     list-style: none;
     background-color: transparent;
+    margin-left: 5%;
 }
 
 /* Display list items side by side */
@@ -440,9 +444,7 @@ ul.breadcrumb li a:hover {
         border: none;
     }
 
-    .justify-center{
-        justify-content: center;
-    }
+
 
     .space-between{
         justify-content: space-between;
@@ -1336,7 +1338,6 @@ ul.breadcrumb li a:hover {
     }
 
     .width-100{
-        background-color: rgba(52,141,165, 0.3);
         width: 40%;
         float: left;
     }
@@ -1390,7 +1391,7 @@ ul.breadcrumb li a:hover {
         height: 6em;
         padding: 2px;
         float: left;
-        margin: 2% 5% 2% 5%;
+        margin: 2% 0% 2% 0%;
         box-shadow:  0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
 
     }
@@ -1430,6 +1431,7 @@ ul.breadcrumb li a:hover {
         display: flex;
         justify-content: center;
         width: 80%;
+        margin: auto;
         border: 1px solid transparent;
         border-radius: 0px 7px 7px 0px;
         background-color: #F2F2F2;
@@ -1496,15 +1498,12 @@ ul.breadcrumb li a:hover {
         border: 1px solid rgba(0, 0, 0, 0.7);
         border-radius: 4px;
         margin-top: 2em;
-        margin-left: 5%;
-        margin-right: 5%;
     }
     .container-right-product{
         border: 1px solid rgba(0, 0, 0, 0.7);
         border-radius: 4px;
         margin-top: 2em;
-        margin-left: 5%;
-        margin-right: 5%;
+
     }
 
     .bg{
@@ -1548,6 +1547,7 @@ ul.breadcrumb li a:hover {
     .text-info-success{
         width: 70%;
         margin: auto;
+        text-align: center;
     }
 
     .text-info2-success{
@@ -1699,6 +1699,9 @@ ul.breadcrumb li a:hover {
         font-size: 2.25em;
     }
 
+    .contact-wrapper{
+        margin-top: 2em;
+    }
 
 }
 

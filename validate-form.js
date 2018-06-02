@@ -1,6 +1,6 @@
 
 
-checkButton()
+
 
 // regex form
 
@@ -36,7 +36,7 @@ function validateFirstName() {
         firstNameErrorElement.innerHTML = "";
         validFirstName = true;
     }
-    checkButton();
+
 }
 
 // Lastname
@@ -53,7 +53,7 @@ function validateLastName() {
         lastNameErrorElement.innerHTML = "";
         validLastName = true;
     }
-    checkButton();
+
 }
 
 // Email
@@ -72,7 +72,7 @@ function validateEmail() {
         emailErrorElement.innerHTML = "";
         validEmail = true;
     }
-    checkButton();
+
 }
 
 // Phone
@@ -90,7 +90,7 @@ function validateSubject() {
         subjectErrorElement.innerHTML = "";
         validSubject = true;
     }
-    checkButton();
+
 }
 
 // Address
@@ -107,7 +107,7 @@ function validateMsg() {
         msgErrorElement.innerHTML = "";
         validMsg = true;
     }
-    checkButton();
+
 }
 
 // Postal
@@ -126,7 +126,7 @@ function validateForm() {
 
     return validFirstName && validLastName && validEmail && validSubject && validMsg;
 }
-
+/*
 function checkButton () {
     //console.log("checkbutton triggered")
     var btn = document.querySelector ("input[type='submit']");
@@ -137,4 +137,5 @@ function checkButton () {
         btn.disabled = true;
     }
 }
+*/
 
