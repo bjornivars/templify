@@ -1,7 +1,7 @@
 
 
 
-function showTemplate(template){
+function showTemplate(template, parent){
 
     var box = document.createElement("div"); // Creates a div called box
     box.classList.add("float-left");
@@ -73,13 +73,40 @@ function showTemplate(template){
     spanDiv.appendChild(spanLeft);
     spanDiv.appendChild(spanRight);
     spanRight.appendChild(ratingStar);
-    myTemplates.appendChild(box);
+    parent.appendChild(box);
+
 
 }
 
 
 
 var myTemplates = document.getElementById("templates");
+var newlyAddedTemplates = document.getElementById("newlyAdded");
+var highestRatedTemplates = document.getElementById("highestRated");
+
+
+
+function compareAdded(a,b) {
+    if (a.date_added < b.date_added)
+        return -1;
+    if (a.date_added > b.date_added)
+        return 1;
+    return 0;
+}
+
+
+function compareRating(a,b) {
+    if (a.rating < b.rating)
+        return -1;
+    if (a.rating > b.rating)
+        return 1;
+    return 0;
+}
+
+
+
+
+
 
 fetch("https://www.templify.no/api/api.php/template")
     .then(function(response) {
@@ -87,8 +114,25 @@ fetch("https://www.templify.no/api/api.php/template")
 
     })
     .then(function(myApi) {
+        let myApi2 = [...myApi]
+  //      let myApi3 = [...myApi2]
+
        // console.log(myApi);
 
+        newlyAdded = myApi2.reverse(compareAdded).slice(0, 4);
+        console.dir(newlyAdded);
+
+        for (var newTemplate of newlyAdded){
+            showTemplate(newTemplate, newlyAddedTemplates)
+        }
+/*
+        highestRating = myApi3.reverse(compareRating).slice(0, 4);
+        // console.dir(highestRating);
+        for (var newTemplate2 of highestRating){
+            showTemplate(newTemplate2, highestRatedTemplates)
+        }
+*/
+        // Listing of all templates with search and categories and stuff....
         for (var template of myApi){
 
             var url = new URL(window.location.href);
@@ -104,21 +148,20 @@ fetch("https://www.templify.no/api/api.php/template")
 
                 if (template.title.toUpperCase().includes(search.toUpperCase())){
                     console.log("found " + template.title);
-                    showTemplate(template);
+                    showTemplate(template, myTemplates);
 
-                } else {
-                    console.log("Template did not match");
                 }
             } else {
 
                 if (catFilter){
                     if (template.category === catFilter){
                         console.log("found " + template.category);
-                        showTemplate(template);
+                        showTemplate(template, myTemplates);
 
                     }
                 } else {
-                    showTemplate(template);
+                    showTemplate(template, myTemplates);
+                    document.getElementById("showIndex").style.display = "block";
                 }
             }
 
