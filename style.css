@@ -1334,6 +1334,28 @@ ul.breadcrumb li a:hover {
         float: left;
     }
 
+    .footer{
+        min-height: 30em;
+        margin-top: 2em;
+
+    }
+
+    .footer-line{
+        border-right: none;
+    }
+
+
+    .footer-wrapper{
+        display: block;
+        border-top: 1px solid #ccc;
+    }
+
+    .footer-headline{
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 
     .content{
         background-color: orange;
