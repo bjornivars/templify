@@ -130,6 +130,8 @@ function showTemplate(template){
     var madeByTextNode = document.createTextNode(madeByTitleTag); // Makes a text node out of the result of card.name
     madeBy.appendChild(madeByTextNode); // Puts the h3TextNode inside the h3 tag to display name of the template
     madeBy.classList.add("madeby-span");
+    madeBy.classList.add("author-text");
+
 
     var spanDiv = document.createElement("div");
     spanDiv.classList.add("span-div");

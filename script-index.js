@@ -28,7 +28,7 @@ function showTemplate(template, parent){
     var infoDiv = document.createElement("div");
     infoDiv.classList.add("infoDiv");
 
-    var h3title = document.createElement("h3"); // Creates a h4 element called h4
+    var h3title = document.createElement("h3"); // Creates a h3 element called h4
     var h3titleTag = template.title; // Makes variable h4Tag = card.name. The name of the card depends on which card displayed
     var h3TextNode = document.createTextNode(h3titleTag); // Makes a text node out of the result of card.name
     h3title.appendChild(h3TextNode); // Puts the h3TextNode inside the h3 tag to display name of the template
@@ -38,6 +38,7 @@ function showTemplate(template, parent){
     var madeByTextNode = document.createTextNode(madeByTitleTag); // Makes a text node out of the result of card.name
     madeBy.appendChild(madeByTextNode); // Puts the h3TextNode inside the h3 tag to display name of the template
     madeBy.classList.add("madeby-span");
+    madeBy.classList.add("author-text");
 
     var spanDiv = document.createElement("div");
     spanDiv.classList.add("span-div");

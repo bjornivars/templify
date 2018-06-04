@@ -53,8 +53,9 @@ button {
 
 body {
     background-color: #f7f8fa;
-    font-family: sans-serif;
-     margin: 0;
+    color: #29303b;
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
 }
 .header{
     background: linear-gradient(to right, #26d35a , #424aed);
@@ -65,8 +66,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Helvetica Neue";
-    font-weight: normal;
+    font-family: 'Open sans', sans-serif;
+    font-weight: lighter;
 }
 
 .footer-line{
@@ -83,8 +84,11 @@ h3{
 
 }
 
+.newlyAdded{
+    margin-top: 0;
+}
+
 p{
-    font-family: Helvetica;
     font-size: 17px;
 }
 
@@ -354,7 +358,7 @@ ul.breadcrumb li a:hover {
     .madeby-span{
         display: block;
         color: #6F6F6F;
-        font-weight: lighter;
+        font-weight: normal;
         margin-top: 0.5em;
     }
 
@@ -367,6 +371,17 @@ ul.breadcrumb li a:hover {
     }
     .inline{
         display: inline;
+    }
+
+    .template-headlines{
+
+        font-size: 20px;
+        font-weight: 500;
+        color: #505763;
+    }
+
+    .author-text{
+        font-size: 13px;
     }
    /* INDEX */
 
@@ -609,7 +624,8 @@ ul.breadcrumb li a:hover {
         width: 100%;
     }
     .black-a{
-        color: black;
+        color: #29303b;
+    ;
     }
 
     .h2-mobile{
@@ -702,6 +718,10 @@ ul.breadcrumb li a:hover {
 
 /* @@@@@@@@@@@@@@@@@@@@@@ Tablet QUERY @@@@@@@@@@@@@@@@@@@@@@ */
 @media screen and (min-width: 500px) and (max-width: 788px) {
+
+    .newlyAdded{
+        margin-top: 1em;
+    }
 
     .content{
         width: 100%;
@@ -1183,6 +1203,15 @@ ul.breadcrumb li a:hover {
 
     /* SIDEBAAAAR */
 
+    .newlyAdded{
+        margin-left: 2em;
+        padding-left: 1em;
+    }
+
+    .hide-tablet{
+        display: none;
+    }
+
     /* Dropdown Button */
     .dropbtn-sidebar {
         background-color: transparent;
@@ -1593,7 +1622,9 @@ ul.breadcrumb li a:hover {
 
 
 
-
+    .newlyAdded{
+        margin-top: 1em;
+    }
 
 
 
