@@ -22,7 +22,9 @@ function showTemplate(template, parent){
     var img = document.createElement("img"); // Creates an element called img
     img.src = template.imgurl; // Makes variable img.src = card.imageUrl. The url of the image depends on which card displaye
     img.setAttribute("alt", "Image for " + template.title);
+   // img.setAttribute("data-src" + template.id);
     img.classList.add("img-mobile");
+   // img.classList.add("lazy");
     // img.style.width = "100%"; // Sets image style width to 100%
 
     var infoDiv = document.createElement("div");
@@ -182,4 +184,3 @@ fetch("https://www.templify.no/api/api.php/template")
     });
 
 // "https://api.urbanapp.no/v1/venues/near/49.616673/6.128208/12/age/99/"
-
